@@ -178,15 +178,15 @@ footer .copy, footer .copy a {
 }
 
 .article header {
-  border-top: 1px dashed #d2d2d2;
+  border-top: 3px solid #ec4c32;
 }
 
 .article header h2 {
-  font-style: italic;
-  text-align: center;
-  font-weight: 400;
+  text-align: left;
+  font-weight: 700;
   margin: 0.8em 0;
   font-size: 1.4em;
+  font-family: 'lora', serif;
 }
 
 .article header h2 a {
@@ -194,18 +194,23 @@ footer .copy, footer .copy a {
 }
 
 .article header .date {
-  text-align: center;
+  text-align: left;
   font-size: 0.8em;
-  margin-top: -0.7em;
+  margin-top: -0.9em;
+  color: #ec4c32;
+  font-family: 'Quicksand', sans-serif;
+
 }
 
 .article header .date span {
-  background-color: #f8f8f8;
-  padding: 0 0.7em;
+  padding: 0 8px 0 0;
+  background-color: white;
 }
 
 .article.intro .content p {
   display: inline;
+  font-family: 'Quicksand', sans-serif;
+  /*font-size: 1.0em;*/
 }
 
 .article.intro .content .more {
@@ -221,8 +226,8 @@ footer .copy, footer .copy a {
 
 .more, .date {
   font-family: 'Merriweather', serif;
-  font-variant: small-caps;
-  text-transform: lowercase;
+  /*font-variant: small-caps;*/
+  /*text-transform: lowercase;*/
   font-weight: 400;
   text-rendering: auto;
   letter-spacing: 1px;
