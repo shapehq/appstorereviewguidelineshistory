@@ -8,7 +8,7 @@ body {
   font-family: 'Lora', serif;
   font-size: 21px;
   line-height: 1.52;
-  background-color: #f8f8f8;
+  background-color: white;
   text-rendering: optimizeLegibility;
 }
 
@@ -89,7 +89,7 @@ hr {
 }
 
 .header h1 {
-  font-size: 2.6em;
+  font-size: 1.8em;
   text-align: center;
   font-weight: 700;
   margin: 0;
@@ -111,10 +111,10 @@ hr {
 }
 
 .header .description {
-  font-size: 1.2em;
-  font-style: italic;
+  font-size: 0.9em;
   text-align: center;
-  margin-top: -0.3em;
+  margin-top: 0.3em;
+  font-family: 'Quicksand', sans-serif;
 }
 
 body.article-detail > header h1 {
@@ -521,4 +521,48 @@ ul.subsection p {
 
     word-spacing: -1px;
 
+}
+
+/* Mailchimp form */
+
+input.email {
+    background-color: #eaeaea;
+    border: none;
+    height: 52px;
+    width: 286px;
+    color: #000;
+    font-size: 1.4em;
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 14px;
+}
+
+input.email::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #555;
+}
+input.email:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #555;
+    opacity:  1;
+}
+input.email::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #555;
+    opacity:  1;
+}
+input.email:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #555;
+}
+
+input.button {
+    height: 52px;
+    width: 120px;
+    border: none;
+    background-color: #ec4c32;
+    color: #fff;
+    font-size: 1.4em;
+    font-family: 'Quicksand', sans-serif;
+    border: none;
+}
+
+form.validate {
+    width: 500px;
+    margin: 0 auto;
 }
