@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>App Store Review Guidelines history</title>
+    <title>App Store Review Guidelines History</title>
     <atom:link href="http://appstorereviewguidelineshistory.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://appstorereviewguidelineshistory.com</link>
-    <description>Follow the changes of Apple's App Store Review Guidelines</description>
+    <description>When did Apple make that rule?</description>
     <pubDate>Thu, 11 Sep 2014 02:00:00 +0200</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
