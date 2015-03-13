@@ -19,6 +19,7 @@ pre {
 body {
   background-color: white;
   text-rendering: optimizeLegibility;
+  width: 810px;
 }
 .content-wrap {
   width: 810px;
@@ -480,9 +481,17 @@ input.button {
   font-weight: 300;
   font-style: normal;
 }
+input,
+textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
 form.validate {
   width: 500px;
   margin: 0 auto;
+}
+div.mailchimp-form {
+  margin-bottom: 40px;
 }
 div.mailchimp-form p {
   margin-left: 160px;
