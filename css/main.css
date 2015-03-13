@@ -522,7 +522,11 @@ div#header-box p {
 }
 div#header-box .twitter-follow {
   padding-top: 20px;
+  margin-left: 0;
 }
 div#header-box .shape-logo {
   padding-top: 20px;
+}
+div#header-box .site-logo {
+  margin-top: 10px;
 }
