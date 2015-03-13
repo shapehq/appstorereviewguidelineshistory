@@ -484,6 +484,13 @@ form.validate {
   width: 500px;
   margin: 0 auto;
 }
+div.mailchimp-form p {
+  margin-left: 160px;
+  margin-top: 4px;
+  font-family: 'ars-maquette-web', sans-serif;
+  font-size: 12px;
+  color: #888;
+}
 /* Header box */
 div#header-box {
   background-color: #1f2634;
