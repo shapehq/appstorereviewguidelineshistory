@@ -19,7 +19,7 @@ pre {
 body {
   background-color: white;
   text-rendering: optimizeLegibility;
-  width: 810px;
+  min-width: 810px;
 }
 .content-wrap {
   width: 810px;
