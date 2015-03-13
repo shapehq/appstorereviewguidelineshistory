@@ -84,21 +84,12 @@ hr {
   margin-top: 15px;
   font-family: 'ars-maquette-web', sans-serif;
 }
-body.article-detail > header h1 {
-  font-size: 2.5em;
-  font-style: italic;
-  font-weight: 400;
-  margin-bottom: -0.2em;
-}
-body.article-detail > header {
-  margin-bottom: 3em;
-}
 /* article */
 .article {
   margin: 3em 0 4em;
 }
 .article header {
-  border-top: 3px solid #ec4c32;
+  border-top: 2px solid #ec4c32;
 }
 .article header h2 {
   text-align: left;
@@ -125,6 +116,7 @@ body.article-detail > header {
   display: inline;
   font-family: 'ars-maquette-web', sans-serif;
   font-size: 15px;
+  line-height: 22px;
 }
 .article.intro .content .more {
   text-decoration: underline;
@@ -492,18 +484,18 @@ form.validate {
   width: 500px;
   margin: 0 auto;
 }
-/* Footer */
-div#footer-box {
+/* Header box */
+div#header-box {
   background-color: #1f2634;
   height: 66px;
 }
-div#footer-box .left-side {
+div#header-box .left-side {
   float: left;
 }
-div#footer-box .right-side {
+div#header-box .right-side {
   float: right;
 }
-div#footer-box p {
+div#header-box p {
   float: left;
   padding-top: 23px;
   padding-right: 9px;
@@ -512,9 +504,9 @@ div#footer-box p {
   font-weight: 300;
   font-size: 16px;
 }
-div#footer-box .twitter-follow {
+div#header-box .twitter-follow {
   padding-top: 20px;
 }
-div#footer-box .shape-logo {
+div#header-box .shape-logo {
   padding-top: 20px;
 }
