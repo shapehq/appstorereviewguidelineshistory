@@ -5,13 +5,22 @@
     <atom:link href="http://appstorereviewguidelineshistory.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://appstorereviewguidelineshistory.com</link>
     <description></description>
-    <pubDate>Tue, 28 Apr 2015 02:00:00 +0200</pubDate>
+    <pubDate>Wed, 16 Sep 2015 08:00:00 +0800</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
     <item>
+      <title>After releasing iOS 9 Apple just renames Passbook and make no other changes</title>
+      <link>http://appstorereviewguidelineshistory.com/articles/2015-09-16-after-releasing-ios-9-apple-renames-passbook/</link>
+      <pubDate>Wed, 16 Sep 2015 08:00:00 +0800</pubDate>
+      <guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2015-09-16-after-releasing-ios-9-apple-renames-passbook/</guid>
+      <author></author>
+      <description>&lt;p&gt;With the release of iOS 9 we expected Apple to make a bunch of changes to the App Store Review Guidelines &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt; like &lt;a href=&quot;http://www.appstorereviewguidelineshistory.com/articles/2014-09-03-previews-flagging-privacy-policy-extensions-homekit-healtkit-testflight/&quot;&gt;they did last year&lt;/a&gt;. But this time the only change is that Passbook has been renamed to Wallet.&lt;/p&gt;
+</description>
+    </item>
+    <item>
       <title>Watch apps for telling time and Human Subject Research</title>
       <link>http://appstorereviewguidelineshistory.com/articles/2015-04-28-watch-apps-for-telling-time-human-subject-research-ethics-review/</link>
-      <pubDate>Tue, 28 Apr 2015 02:00:00 +0200</pubDate>
+      <pubDate>Tue, 28 Apr 2015 08:00:00 +0800</pubDate>
       <guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2015-04-28-watch-apps-for-telling-time-human-subject-research-ethics-review/</guid>
       <author></author>
       <description>&lt;p&gt;Shortly after customers begin to receive their Apple Watches and &lt;a href=&quot;http://techcrunch.com/2015/04/27/apple-boasts-over-3500-apple-watch-apps-already-available/&quot;&gt;Apple boasts over 3,500 Watch apps are available&lt;/a&gt;, Apple made two small changes to the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt;. The new section 10.7 states that watch apps must do more than just telling time. Also a new requirement on Human Subject Research says that the research should have approval from an independant ethics review board.&lt;/p&gt;
@@ -20,7 +29,7 @@
     <item>
       <title>Research Kit, Apple Pay recurring payments, SoundCloud downloads</title>
       <link>http://appstorereviewguidelineshistory.com/articles/2015-03-12-research-kit-apple-pay-recurring/</link>
-      <pubDate>Thu, 12 Mar 2015 01:00:00 +0100</pubDate>
+      <pubDate>Thu, 12 Mar 2015 08:00:00 +0800</pubDate>
       <guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2015-03-12-research-kit-apple-pay-recurring/</guid>
       <author></author>
       <description>&lt;p&gt;After the Spring Forward media event earlier this week Apple has updated the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt; with a few changes to the HealthKit so that it also mentions ResearchKit and there is a new paragraph on Apple Pay recurring payments. Finally there is a new paragraph stating that apps downloading media from online services such as YouTube, SoundCloud, and Vimeo etc. must obtain permission from those companies before doing so.&lt;/p&gt;
@@ -29,7 +38,7 @@
     <item>
       <title>Apple Pay Changes</title>
       <link>http://appstorereviewguidelineshistory.com/articles/2014-09-11-apple-pay-changes/</link>
-      <pubDate>Thu, 11 Sep 2014 02:00:00 +0200</pubDate>
+      <pubDate>Thu, 11 Sep 2014 08:00:00 +0800</pubDate>
       <guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2014-09-11-apple-pay-changes/</guid>
       <author></author>
       <description>&lt;p&gt;Only a week after the last revision Apple again updates the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt; with a new section 29 on Apple Pay.&lt;/p&gt;
@@ -38,7 +47,7 @@
     <item>
       <title>Introducing Previews, Flagging, Privacy Policy, Extensions, HomeKit, Healtkit and TestFlight</title>
       <link>http://appstorereviewguidelineshistory.com/articles/2014-09-03-previews-flagging-privacy-policy-extensions-homekit-healtkit-testflight/</link>
-      <pubDate>Wed, 03 Sep 2014 02:00:00 +0200</pubDate>
+      <pubDate>Wed, 03 Sep 2014 08:00:00 +0800</pubDate>
       <guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2014-09-03-previews-flagging-privacy-policy-extensions-homekit-healtkit-testflight/</guid>
       <author></author>
       <description>&lt;p&gt;Together with the iOS 8 release Apple updated the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt; with new sections on Extensions, HomeKit, HealtKit and Testflight. Some rules on the new app previews (videos) were also introduce along with a requirement to have a privacy policy and a flagging feature if the app has user generated content.&lt;/p&gt;
@@ -47,7 +56,7 @@
     <item>
       <title>Apple Allows Recommending Related Apps and Bitcoin Apps.</title>
       <link>http://appstorereviewguidelineshistory.com/articles/2014-08-09-apple-allows-recommending-related-apps-and-bitcoin-apps/</link>
-      <pubDate>Sat, 09  Aug 2014 02:00:00 +0200</pubDate>
+      <pubDate>Sat, 09  Aug 2014 08:00:00 +0800</pubDate>
       <guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2014-08-09-apple-allows-recommending-related-apps-and-bitcoin-apps/</guid>
       <author></author>
       <description>&lt;p&gt;Most notably in this set of changes of the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt;, Apple now allows apps to show a collection of other apps that don’t have to be your own if they form a collection in a way Apple approves. Apps are now also allowed to facilitate transmission of approved virtual currencies. In other words Bitcoin apps are now officially allowed.&lt;/p&gt;
@@ -56,7 +65,7 @@
     <item>
       <title>Cellular Download Limit and Kids Category</title>
       <link>http://appstorereviewguidelineshistory.com/articles/2014-03-30-cellular-download-limit-and-kids-category/</link>
-      <pubDate>Sun, 30 Mar 2014 01:00:00 +0100</pubDate>
+      <pubDate>Sun, 30 Mar 2014 08:00:00 +0800</pubDate>
       <guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2014-03-30-cellular-download-limit-and-kids-category/</guid>
       <author></author>
       <description>&lt;p&gt;A few general changes were introduced in this revision of the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt;. The limit for downloading apps over 3G cellular were raised from 50 MB to 100 MB the iBookstore was renamed to iBooks Store. Section 24 “Kids Apps” was renamed to “Kids Category” along with the introduction of the new special App Store category.&lt;/p&gt;
