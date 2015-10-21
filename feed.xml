@@ -14,8 +14,10 @@
       <pubDate>Wed, 21 Oct 2015 02:00:00 +0200</pubDate>
       <guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2015-10-21-guidelines-updated-for-tvos-apps/</guid>
       <author></author>
-      <description>&lt;p&gt;Along with other releases (iOS 9.1, watchOS 2.0.1 and tvOS GM) Apple silently updated the App Store Review Guidelines today. The changes listed below are mostly related to the release of the new Apple TV, but the new Apple Pencil also gets a mention.&lt;/p&gt;
-&lt;p&gt;The new section 2.27 is rather confusing in its mention of the new Siri remote without explaining that the section only applies to tvOS apps (which we assume).&lt;/p&gt;
+      <description>&lt;p&gt;Along with other releases (iOS 9.1, watchOS 2.0.1 and tvOS GM) Apple silently updated the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt; today. The changes listed below are mostly related to the release of the new Apple TV, but the new Apple Pencil also gets a mention.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;The new section 2.27 is rather confusing in its mention of the new Siri remote without explaining that the section only applies to tvOS apps (which we assume).
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;The updated section 3.6 now says that tvOS top shelf extensions must only show content that adhere to the 4+ age rating. This basically means that we should be very careful with using any user generated content for the top shelf.&lt;/p&gt;
 </description>
     </item>
