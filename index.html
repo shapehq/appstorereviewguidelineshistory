@@ -65,6 +65,115 @@
         </div>
         <article class="article intro">
           <header>
+            <p class="date"><span>April 19, 2016</span></p>
+            <h2><a href="/articles/2016-04-19-carekit-apple-music/">New Apple Music API section, CareKit and other updates</a></h2>
+          </header>
+          <section class="content"><p>Today Apple once again updated the <a href="https://developer.apple.com/app-store/review/guidelines/">App Store Review Guidelines</a>. Its been 6 months since the last update, and the recent <a href="https://developer.apple.com/library/ios/releasenotes/General/WhatsNewIniOS/Articles/iOS9_3.html">iOS 9.3 release added several new developer APIs</a>; so this update was not unexpected.
+<br /><br /></p>
+<p>Most significant is perhaps the new section 10.8 that states apps using background location services must provide a reason for doing so. What Apple consider a fair reason is not really clear although the <a href="https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/index.html"><span class="caps">HIG</span></a> is mentioned.
+<br /><br /></p>
+<p>Another significant addition is the new section 30 about the Apple Music <span class="caps">API</span> that was introduced in iOS 9.3. As described in the <a href="https://developer.apple.com/library/ios/releasenotes/General/WhatsNewIniOS/Articles/iOS9_3.html">iOS 9.3 release note</a> the new <span class="caps">API</span> allows 3<span class="ord">rd</span> party apps to add music to a user’s Apple Music library and play&nbsp;it.</p>
+<p>The update did also include some minor additions mentioning new Apple products such as CareKit and Apple Music in various sections. Addidtions are highlighted in green&nbsp;below.</p>
+</section>
+          <p class="changes">
+		<h2 class="subhead" id="location">4. Location</h2>
+		<ul class="subsection">
+			<li>
+				<h3><span class="insert">4.5</span></h3>
+				<p><span class="insert">Apps using background location services must provide a reason that clarifies the purpose of the use, using mechanisms described in the Human Interface Guidelines</span></p>
+			</li>
+		</ul>
+
+		<h2 class="subhead" id="trademarks-trade-dress">8. Content and Intellectual Property Rights</h2>
+		<ul class="subsection">
+			<li>
+				<h3>8.6</h3>
+				<p>Apps that include the ability to <span class="insert">save or </span>download music or video content from third party sources (e.g. <span class="insert">Apple Music, </span>YouTube, SoundCloud, Vimeo, etc) without explicit authorization from those sources will be rejected</p>
+			</li>
+		</ul>
+
+
+
+
+		<h2 class="subhead" id="user-interface">10. User interface</h2>
+		<ul class="subsection">
+			<li>
+				<h3><span class="insert">10.8</span></h3>
+				<p><span class="insert">Apps using background location services must provide a reason that clarifies the purpose of the use, using mechanisms described in the Human Interface Guidelines</span></p>
+			</li>
+
+		</ul>
+
+		<h2 class="subhead" id="purchasing-currencies">11. Purchasing and currencies</h2>
+		<ul class="subsection">
+			<li>
+				<h3>11.8</h3>
+				<p>Apps that use IAP to purchase access to built-in capabilities provided by iOS, watchOS, and tvOS, such as the camera or the gyroscope, or Apple-branded peripherals, such as Apple Pencil or Apple Keyboard, <span class="insert">or Apple services, such as Apple Music access or iCloud storage, </span>will be rejected</p>
+			</li>
+		</ul>
+
+		<h2 class="subhead" id="extensions">25. Extensions</h2>
+		<ul class="subsection">
+			<li>
+				<h3>25.7</h3>
+				<p>Apps offering Keyboard extensions must <span class="insert">provide keyboard functionality (e.g. typed characters),</span> have a primary category of Utilities and a privacy policy or they will be rejected</p>
+			</li>
+		</ul>
+
+		<h2 class="subhead" id="healthkit">27. HealthKit<span class="insert">, CareKit,</span> and Human Subject Research</h2>
+		<ul class="subsection">
+			<li>
+				<h3>27.1</h3>
+				<p>Apps using the HealthKit <span class="delete">framework</span><span class="insert">or CareKit frameworks</span> or conducting human subject research for health purposes, such as through the use of ResearchKit, must comply with applicable law for each Territory in which the App is made available, as well as Sections 3.3.28 and 3.3.39 of the iOS Developer Program License Agreement</p>
+			</li>
+
+
+			<li>
+				<h3>27.2</h3>
+				<p>Apps that write false or inaccurate data into HealthKit <span class="insert">or CareKit </span>will be rejected</p>
+			</li>
+
+
+			<li>
+				<h3>27.4</h3>
+				<p>Apps may not use or disclose to third parties user data gathered from the HealthKit <span class="delete">API</span><span class="insert">or CareKit APIs</span> or from health-related human subject research for advertising or other use-based data mining purposes other than improving health, or for the purpose of health research</p>
+			</li>
+
+
+			<li>
+				<h3>27.5</h3>
+				<p>Apps that share user data acquired via the HealthKit <span class="delete">API</span><span class="insert">or CareKit APIs</span> with third parties without user consent will be rejected</p>
+			</li>
+
+			<li>
+				<h3>27.6</h3>
+				<p>Apps using the HealthKit <span class="delete">framework</span><span class="insert">or CareKit frameworks</span> must indicate integration with the Health app in their marketing text and must clearly identify the HealthKit <span class="insert">and CareKit </span>functionality in the app’s user interface</p>
+			</li>
+
+			<li>
+				<h3>27.7</h3>
+				<p>Apps using the HealthKit <span class="delete">framework</span><span class="insert">or CareKit frameworks</span> or conducting human subject research must provide a privacy policy or they will be rejected</p>
+			</li>
+		</ul>
+
+		<h2 class="subhead" id="apple-music-api"><span class="insert">30. Apple Music API</span></h2>
+		<ul class="subsection">
+			<li>
+				<h3>30.1</h3>
+				<p><span class="insert">Apps using the Apple Music API that trigger playback without explicit user action will be rejected</span></p>
+			</li>
+			<li>
+				<h3>30.2</h3>
+				<p><span class="insert">Apps using the Apple Music API must expose and respect standard media controls such as “play,” pause,” and “skip”</span></p>
+			</li>
+			<li>
+				<h3>30.3</h3>
+				<p><span class="insert">Apps using the Apple Music API may not require payment or otherwise monetize access to the Apple Music service (eg. in-app purchase, advertising, requesting user info)</span></p>
+			</li>
+		</ul></p>
+        </article>
+        <article class="article intro">
+          <header>
             <p class="date"><span>October 21, 2015</span></p>
             <h2><a href="/articles/2015-10-21-guidelines-updated-for-tvos-apps/">Guidelines updated for tvOS apps</a></h2>
           </header>

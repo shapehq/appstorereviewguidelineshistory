@@ -5,9 +5,23 @@
     <atom:link href="http://appstorereviewguidelineshistory.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://appstorereviewguidelineshistory.com</link>
     <description></description>
-    <pubDate>Wed, 21 Oct 2015 02:00:00 +0200</pubDate>
+    <pubDate>Tue, 19 Apr 2016 02:00:00 +0200</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>New Apple Music API section, CareKit and other updates</title>
+      <link>http://appstorereviewguidelineshistory.com/articles/2016-04-19-carekit-apple-music/</link>
+      <pubDate>Tue, 19 Apr 2016 02:00:00 +0200</pubDate>
+      <guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2016-04-19-carekit-apple-music/</guid>
+      <author></author>
+      <description>&lt;p&gt;Today Apple once again updated the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt;. Its been 6 months since the last update, and the recent &lt;a href=&quot;https://developer.apple.com/library/ios/releasenotes/General/WhatsNewIniOS/Articles/iOS9_3.html&quot;&gt;iOS 9.3 release added several new developer APIs&lt;/a&gt;; so this update was not unexpected.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Most significant is perhaps the new section 10.8 that states apps using background location services must provide a reason for doing so. What Apple consider a fair reason is not really clear although the &lt;a href=&quot;https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/index.html&quot;&gt;HIG&lt;/a&gt; is mentioned.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Another significant addition is the new section 30 about the Apple Music API that was introduced in iOS 9.3. As described in the &lt;a href=&quot;https://developer.apple.com/library/ios/releasenotes/General/WhatsNewIniOS/Articles/iOS9_3.html&quot;&gt;iOS 9.3 release note&lt;/a&gt; the new API allows 3rd party apps to add music to a user’s Apple Music library and play it.&lt;/p&gt;
+&lt;p&gt;The update did also include some minor additions mentioning new Apple products such as CareKit and Apple Music in various sections. Addidtions are highlighted in green below.&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Guidelines updated for tvOS apps</title>
       <link>http://appstorereviewguidelineshistory.com/articles/2015-10-21-guidelines-updated-for-tvos-apps/</link>
