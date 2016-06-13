@@ -5,9 +5,32 @@
     <atom:link href="http://appstorereviewguidelineshistory.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://appstorereviewguidelineshistory.com</link>
     <description></description>
-    <pubDate>Tue, 19 Apr 2016 02:00:00 +0200</pubDate>
+    <pubDate>Mon, 13 Jun 2016 02:00:00 +0200</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Totally rewritten after WWDC keynote</title>
+      <link>http://appstorereviewguidelineshistory.com/articles/2016-06-13-totally-rewritten-wwdc/</link>
+      <pubDate>Mon, 13 Jun 2016 02:00:00 +0200</pubDate>
+      <guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2016-06-13-totally-rewritten-wwdc/</guid>
+      <author></author>
+      <description>&lt;p&gt;What a keynote! Apple announced significant updates for their 4 big platforms: iOS, macOS, watchOS, and tvOS. And right after the keynote ended the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt; were also updated. But not just updated… Totally rewritten! The previous 30 sections have been reduce to only 5 sections but the word count has gone up from around 5000 words to over 6000 words.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;This post will not include a diff showing what changed since &lt;a href=&quot;http://www.appstorereviewguidelineshistory.com/articles/2016-04-19-carekit-apple-music&quot;&gt;the last update in April&lt;/a&gt; since basically &lt;em&gt;everything&lt;/em&gt; changed.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;From the introduction:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The guiding principle of the App Store is simple - we want to provide a safe experience for users to get apps and a great opportunity for all developers to be successful. We have updated the App Review Guidelines with that principle in mind. The guidelines themselves haven’t changed, but they are better organized and provide more context. On the following pages you will find guidelines arranged into five clear sections: Safety, Performance, Business, Design, and Legal.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Last week when &lt;a href=&quot;http://daringfireball.net/2016/06/the_new_app_store&quot;&gt;Apple told journalists that App Store Subscription Pricing would no longer be limited to apps with media content and services&lt;/a&gt; there was &lt;a href=&quot;http://daringfireball.net/2016/06/app_store_subscription_uncertainty&quot;&gt;much uncertainty to what that really meant&lt;/a&gt;. The new guidelines actually elaborates on that:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Auto-renewing subscriptions should only be offered using in-app purchase and may only be used for periodicals (e.g. newspapers, magazines), business apps (e.g. enterprise, productivity, professional creative, cloud storage), media apps (e.g. video, audio, voice, photo sharing), and other approved services (e.g. dating, dieting, weather)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;So I guess that means Apple have a whitelist of what kinds of apps will be allowed to use Subscription Pricing.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Basically you should read the new guidelines from start to end. If you stumble upon new rules that were not mentioned before, then please let us know so we can update this post.&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>New Apple Music API section, CareKit and other updates</title>
       <link>http://appstorereviewguidelineshistory.com/articles/2016-04-19-carekit-apple-music/</link>
