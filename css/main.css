@@ -530,3 +530,42 @@ div#header-box .shape-logo {
 div#header-box .site-logo {
   margin-top: 10px;
 }
+.no-bullet {
+  list-style: none;
+  margin: 0;
+}
+li#accurate-metadata,
+li#extensions,
+li#privacy,
+li.margin-top,
+li.margin-top-small {
+  vertical-align: top;
+  display: block;
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Verdana, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  text-align: left;
+  overflow: hidden;
+  font-weight: normal;
+  color: #333333;
+  line-height: 24px;
+  list-style: none outside none;
+  word-spacing: -1px;
+}
+li#accurate-metadata strong,
+li#extensions strong,
+li#privacy strong,
+li.margin-top strong,
+li.margin-top-small strong {
+  padding-right: 15px;
+  font-size: 20px;
+  margin: 0;
+}
+li#accurate-metadata li,
+li#extensions li,
+li#privacy li,
+li.margin-top li,
+li.margin-top-small li {
+  padding: 10px;
+  margin-left: 64px;
+}

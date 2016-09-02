@@ -5,9 +5,31 @@
     <atom:link href="http://appstorereviewguidelineshistory.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://appstorereviewguidelineshistory.com</link>
     <description></description>
-    <pubDate>Mon, 13 Jun 2016 02:00:00 +0200</pubDate>
+    <pubDate>Thu, 01 Sep 2016 02:00:00 +0200</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Updated subscription rules, SiriKit, Stickers and more</title>
+      <link>http://appstorereviewguidelineshistory.com/articles/2016-09-01-subscriptions-siri-kit-stickers/</link>
+      <pubDate>Thu, 01 Sep 2016 02:00:00 +0200</pubDate>
+      <guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2016-09-01-subscriptions-siri-kit-stickers/</guid>
+      <author></author>
+      <description>&lt;p&gt;This update to the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt; is mostly about the new iOS features SiriKit and Stickers, but also includes the previously promised new rules for subscription based apps. The full diff is listed below, but a few interesting new bits include:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;App names must be limited to 50 characters and should not include terms or descriptions that are not the name of the app.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This was also mentioned in the “App Store Improvements” email sent to developers on September 1st and will be enforced for new apps and app updates.&lt;/p&gt;
+&lt;p&gt;Section 3.2.2 has a new point that I think is worth to notice:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Apps should allow a user to get what they’ve paid for without performing additional tasks, such as posting on social media, uploading contacts, checking in to the app a certain number of times, etc. &lt;strong&gt;Apps should not force users to rate the app, review the app, download other apps, or take other similar actions in order to access functionality, content, or use of the app.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Seems to me that many apps and games currently encourage users to rate the app by offering rewards like free coins or similar for doing so. It will be interesting to see if Apple enforce this rule in a way that also prohibits this behavior where users are not forced, but gets rewarded.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;And remember that even after your app has been approved, you should update your app to ensure it remains functional and engaging to new and existing customers. Apps that stop working or offer a degraded experience may be removed from the App Store at any time.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Yes Apple will finally start to remove abandoned apps from the App Store. This should be a win for everyone.&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Totally rewritten after WWDC keynote</title>
       <link>http://appstorereviewguidelineshistory.com/articles/2016-06-13-totally-rewritten-wwdc/</link>
