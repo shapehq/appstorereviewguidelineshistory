@@ -5,9 +5,20 @@
     <atom:link href="http://appstorereviewguidelineshistory.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://appstorereviewguidelineshistory.com</link>
     <description></description>
-    <pubDate>Thu, 01 Sep 2016 02:00:00 +0200</pubDate>
+    <pubDate>Mon, 14 Nov 2016 01:00:00 +0100</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Added nonprofit payment exception</title>
+      <link>http://appstorereviewguidelineshistory.com/articles/2016-11-14-added-nonprofit-payment-exception/</link>
+      <pubDate>Mon, 14 Nov 2016 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2016-11-14-added-nonprofit-payment-exception/</guid>
+      <author></author>
+      <description>&lt;p&gt;With this minor update to the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt; Apple added a subsection saying that approved nonprofits may fundraise directly within their app using Apple Pay. There is also &lt;a href=&quot;https://developer.apple.com/support/apple-pay-nonprofits/&quot;&gt;a link to a new page about how to become an approved nonprofit&lt;/a&gt;.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;This change also included Apple renaming Mac OS X to its new name macOS in several places.&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Updated subscription rules, SiriKit, Stickers and more</title>
       <link>http://appstorereviewguidelineshistory.com/articles/2016-09-01-subscriptions-siri-kit-stickers/</link>
