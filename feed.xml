@@ -5,9 +5,29 @@
     <atom:link href="http://appstorereviewguidelineshistory.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://appstorereviewguidelineshistory.com</link>
     <description></description>
-    <pubDate>Mon, 14 Nov 2016 01:00:00 +0100</pubDate>
+    <pubDate>Thu, 08 Jun 2017 02:00:00 +0200</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>New rules following WWDC 2017</title>
+      <link>http://appstorereviewguidelineshistory.com/articles/2017-06-08-new-rules-following-wwdc-2017/</link>
+      <pubDate>Thu, 08 Jun 2017 02:00:00 +0200</pubDate>
+      <guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2017-06-08-new-rules-following-wwdc-2017/</guid>
+      <author></author>
+      <description>&lt;p&gt;After a densely packed WWDC keynote with many new features for developers and user, Apple also published a  new version of the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt;. There many changes ranging from minor rephrasings to totally new rules.&lt;/p&gt;
+&lt;p&gt;A few notable changes and additions that caught my mind:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;New note on how to respond to App Store customer reviews.&lt;/li&gt;
+&lt;li&gt;Note saying developers must now use the provided API to prompt users for reviews rather than link to the App Store page from a custom prompt.&lt;/li&gt;
+&lt;li&gt;App names can now only be 30 characters long. Previosly this limit was 50 characters. There is a new subtitle feature in iTunes Connect that we should use instead of long descriptive titles.&lt;/li&gt;
+&lt;li&gt;Apps that provide a programming interface may now (in some cases) download and run code from the Internet.&lt;/li&gt;
+&lt;li&gt;Clarifications regarding IAP and other purchasing methods for “reader” apps.&lt;/li&gt;
+&lt;li&gt;Binary options trading apps are no longer allowed.&lt;/li&gt;
+&lt;li&gt;Apps created from a commercialized template or app generation service will be rejected.&lt;/li&gt;
+&lt;li&gt;Your app description should let people know what types of access (e.g. location, contacts, calendar, etc.) are requested by your app, and what aspects of the app won’t work if the user doesn’t grant permission.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     <item>
       <title>Added nonprofit payment exception</title>
       <link>http://appstorereviewguidelineshistory.com/articles/2016-11-14-added-nonprofit-payment-exception/</link>

@@ -383,6 +383,10 @@ h2.subhead {
   padding: 0;
   width: 800px;
 }
+section.content ul li {
+  font-family: 'ars-maquette-web', sans-serif;
+  font-size: 16px;
+}
 ul.subsection {
   display: block;
   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Verdana, sans-serif;
