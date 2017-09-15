@@ -5,9 +5,33 @@
     <atom:link href="http://appstorereviewguidelineshistory.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://appstorereviewguidelineshistory.com</link>
     <description></description>
-    <pubDate>Thu, 08 Jun 2017 02:00:00 +0200</pubDate>
+    <pubDate>Fri, 15 Sep 2017 02:00:00 +0200</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>New guidelines for Face ID, ARKit, privacy policies and more.</title>
+      <link>http://appstorereviewguidelineshistory.com/articles/2017-09-15-face-id-arkit-privacy-policies/</link>
+      <pubDate>Fri, 15 Sep 2017 02:00:00 +0200</pubDate>
+      <guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2017-09-15-face-id-arkit-privacy-policies/</guid>
+      <author></author>
+      <description>&lt;p&gt;With the imminent release of iOS 11 and the announcement of the iPhone X with Face ID it was only natural for Apple to update the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt;. But this update is actually rather big and includes many changes that does not relate to the new products as such.&lt;/p&gt;
+&lt;p&gt;A few notable changes and additions that caught my mind:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Don’t market your app with features or content it does not have (such as claimed “virus scanners”)&lt;/li&gt;
+&lt;li&gt;You must support in-app purchases initiated from the App Store&lt;/li&gt;
+&lt;li&gt;Facial recognition for authentication must be implemented using the &lt;a href=&quot;https://developer.apple.com/documentation/localauthentication/&quot;&gt;official Apple API&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Apps may facilitate peer-to-peer payments and are not required to use in-app purchases for such payments as long as no digital content or services are offered in exchange for rhe payment.&lt;/li&gt;
+&lt;li&gt;“Apps using ARKit should provide rich and integrated augmented reality experiences; merely dropping a model into an AR view or replaying animation is not enough.”&lt;/li&gt;
+&lt;li&gt;Section 4.7 changes some wording in the context of downloading and running 3rd party code from an app.&lt;/li&gt;
+&lt;li&gt;The list of app types that must include a privacy policy has been extended to also include “apps that utilize ARKit, Camera APIs, Photo APIs, or other software for depth of facial mapping information”. So if your app falls into this category make sure you have the privacy policy in place and save yourself for a rejection.&lt;/li&gt;
+&lt;li&gt;Data gathered from depth and/or facial mapping tools (e.g. ARKit, Camera APIs, or Photo APIs) may not be used for advertising or other use-based data mining&lt;/li&gt;
+&lt;li&gt;Don’t visualize activity data in a way that resembles the Activity Rings in Activity control&lt;/li&gt;
+&lt;li&gt;IAP renamed to in-app purchases everywhere (not all cases included in the diff below)&lt;/li&gt;
+&lt;li&gt;Some typos were fixed (not all included in the diff below)&lt;/li&gt;
+&lt;li&gt;Various other changes; Check the details below.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     <item>
       <title>New rules following WWDC 2017</title>
       <link>http://appstorereviewguidelineshistory.com/articles/2017-06-08-new-rules-following-wwdc-2017/</link>
