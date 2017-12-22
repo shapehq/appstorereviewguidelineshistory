@@ -5,9 +5,27 @@
     <atom:link href="http://appstorereviewguidelineshistory.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://appstorereviewguidelineshistory.com</link>
     <description></description>
-    <pubDate>Fri, 15 Sep 2017 02:00:00 +0200</pubDate>
+    <pubDate>Thu, 21 Dec 2017 01:00:00 +0100</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Crypto currencies and ICOs, template apps, loot boxes and more</title>
+      <link>http://appstorereviewguidelineshistory.com/articles/2017-12-21-tba/</link>
+      <pubDate>Thu, 21 Dec 2017 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2017-12-21-tba/</guid>
+      <author></author>
+      <description>&lt;p&gt;Wednesday the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt; was updated with quite a few changes. Besides some minor clarifications, new sections were introduced about:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Crypto currencies and ICOs now have a dedicated section.&lt;/li&gt;
+&lt;li&gt;The ban on template apps is clarified so its now more clear exactly what kinds of apps are affected. &lt;a href=&quot;https://techcrunch.com/2017/12/20/apple-revises-its-controversial-guidelines-on-template-based-apps/&quot;&gt;Techcrunch spotted this change too&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;There is a few paragraphs on apps available for pre-order.&lt;/li&gt;
+&lt;li&gt;Details about what is allowed when offering so-called “loot boxes” in games.&lt;/li&gt;
+&lt;li&gt;Financial apps must come from the financial institutions performing the services or they should at least use public APIs.&lt;/li&gt;
+&lt;li&gt;A new section on VPN apps details some rules specific to this app type.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Check out all the changes below.&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>New guidelines for Face ID, ARKit, privacy policies and more.</title>
       <link>http://appstorereviewguidelineshistory.com/articles/2017-09-15-face-id-arkit-privacy-policies/</link>
