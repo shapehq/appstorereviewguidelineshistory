@@ -5,9 +5,31 @@
     <atom:link href="http://appstorereviewguidelineshistory.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://appstorereviewguidelineshistory.com</link>
     <description></description>
-    <pubDate>Thu, 21 Dec 2017 01:00:00 +0100</pubDate>
+    <pubDate>Mon, 04 Jun 2018 02:00:00 +0200</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Changes after WWDC 2018</title>
+      <link>http://appstorereviewguidelineshistory.com/articles/2018-06-04-wwdc2018/</link>
+      <pubDate>Mon, 04 Jun 2018 02:00:00 +0200</pubDate>
+      <guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2018-06-04-wwdc2018/</guid>
+      <author></author>
+      <description>&lt;p&gt;After the keynote of the World Wide Developers Conference 2018, Apple updated the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt; with a bunch of changes and new rules. It is clear that the theme of this update is user privacy and data protection. You can check out all the additions (marked with green) and removals (marked with red) below, but a few noteworthy changes include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Apps now must clearly describe new features and changes in the “What’s New” section of the App Store. Several of the large social network companies have been using a practice where they reuse a generic update text for every release and then enable new features remotely on a per-user basis. This appears to no longer be permitted.&lt;/li&gt;
+&lt;li&gt;Developers are now allowed to provide time based free trials for non-subscription apps.&lt;/li&gt;
+&lt;li&gt;Several new rules for apps dealing with cryptocurrencies. Apps are not allowed to mine coins, but in return cryptocurrencies no longer need to be “approved”.&lt;/li&gt;
+&lt;li&gt;New rules for apps and games with advertising. Users now must be able to see all information used to target an ad without leaving the app.&lt;/li&gt;
+&lt;li&gt;New rules for apps that enable Remote Desktop access.&lt;/li&gt;
+&lt;li&gt;Emojis are back! Section 4.5.6 says that it is ok to use Unicode characters that render as Apple emojis inside apps and app metadata.&lt;/li&gt;
+&lt;li&gt;All apps must include a link to their privacy policy in the App Store Connect metadata field and within the app&lt;/li&gt;
+&lt;li&gt;Apps must respect the user’s permission settings and not attempt to manipulate, trick, or force people to consent to unnecessary data access. For example, apps that include the ability to post photos to a social network must not also require microphone access before allowing the user to upload photos.&lt;/li&gt;
+&lt;li&gt;Apps that enable sign in using a 3rd party social network must also include a mechanism to revoke social network credentials and disable data access between the app and social network from within the app.&lt;/li&gt;
+&lt;li&gt;There is a new Developer Code of Conduct section.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Check out all the changes yourself below.&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Crypto currencies and ICOs, template apps, loot boxes and more</title>
       <link>http://appstorereviewguidelineshistory.com/articles/2017-12-21-tba/</link>

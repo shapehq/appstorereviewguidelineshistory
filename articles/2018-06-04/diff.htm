@@ -1,0 +1,411 @@
+<h3 class="typography-subsection-headline">Introduction</h3>
+
+<ul class="no-bullet">
+    <li id="app-completeness" class="margin-top">
+        <p>The guiding principle of the App&nbsp;Store is simple - we want to provide a safe experience for users to get apps
+            and a great opportunity for all developers to be successful.
+            <span class="delete">We have updated the App Review Guidelines with that principle in mind. The</span>
+            <span class="insert">On the following pages you will find</span> guidelines
+            <span class="delete">themselves haven’t changed, but they are better organized and provide more context. On the following pages you
+                will find guidelines </span>arranged into five clear sections: Safety, Performance, Business, Design, and
+            Legal. A few other points to keep in mind:</p>
+        <ul class="disc top-level">
+            <li>
+                <span class="insert">You are responsible for making sure everything in your app complies with these guidelines, including ad networks,
+                    analytics services, and third-party SDKs, so review and choose them carefully.</span>
+            </li>
+        </ul>
+        <p>We hope these
+            <span class="delete">new </span>guidelines help you sail through the App Review process, and that approvals and rejections
+            <span class="delete">are more</span>
+            <span class="insert">remain</span> consistent across the board. This is a living document; new apps presenting new questions may result
+            in new rules at any time. Perhaps your app will trigger this. We love this stuff too, and honor what you do.
+            <span class="delete">We're</span>
+            <span class="insert">We’re</span> really trying our best to create the best platform in the world for you to express your talents
+            and make a living, too.</p>
+
+    </li>
+</ul>
+
+<ul class="no-bullet">
+    <li id="developer-information" class="margin-top">
+        <strong>1.5 Developer Information</strong>
+        <p>People need to know how to reach you with questions and support issues. Make sure your
+            <span class="insert">app and its </span>Support URL
+            <span class="delete">includes</span>
+            <span class="insert">include</span> an easy way to
+            <span class="delete">reach</span>
+            <span class="insert">contact</span> you
+            <span class="insert">; this is particularly important for apps that may be used in the classroom</span>. Failure to include accurate
+            and up-to-date contact information not only frustrates customers, but may violate the law in some countries.
+            Also ensure that Wallet passes include valid contact information from the issuer and are signed with a dedicated
+            certificate assigned to the brand or trademark owner of the pass.</p>
+    </li>
+    <li id="data-security" class="margin-top">
+        <strong>
+            <span class="insert">1.6 Data Security</span>
+        </strong>
+        <p>
+            <span class="insert">Apps should implement appropriate security measures to ensure proper handling of user information collected pursuant
+                to the Apple Developer Program License Agreement and these Guidelines (see Guideline 5.1 for more information)
+                and prevent its unauthorized use, disclosure, or access by third parties.</span>
+        </p>
+    </li>
+</ul>
+
+<ul class="no-bullet">
+    <li id="accurate-metadata">
+        <strong>2.3 Accurate Metadata</strong>
+        <ul class="no-bullet margin-top-small">
+            <li>
+                <strong>2.3.6</strong> Answer the age rating questions in
+                <span class="nowrap">
+                    <span class="delete">iTunes</span>
+                    <span class="insert">App Store</span> Connect</span> honestly so that your app aligns properly with parental controls. If
+                your app is mis-rated, customers might be surprised by what they get, or it could trigger an inquiry from
+                government regulators.
+                <span class="insert"> If your app includes media that requires the display of content ratings or warnings (e.g. films, music, games,
+                    etc.), you are responsible for complying with local requirements in each territory where your app is
+                    available.
+                </span>
+            </li>
+            <li>
+                <strong>
+                    <span class="insert">2.3.12</span>
+                </strong>
+                <span class="insert"> Apps must clearly describe new features and product changes in their “What’s New” text. Simple bug fixes,
+                    security updates, and performance improvements may rely on a generic description, but more significant
+                    changes must be listed in the notes.</span>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+
+<li id="hardware-compatibility" class="margin-top">
+    <strong>2.4 Hardware Compatibility</strong>
+    <ul class="no-bullet margin-top-small">
+
+        <li>
+            <strong>2.4.2</strong> Design your app to use power efficiently. Apps should not rapidly drain battery, generate excessive
+            heat, or put unnecessary strain on device resources.
+            <span class="insert"> Apps, including any third party advertisements displayed within them, may not run unrelated background processes,
+                such as cryptocurrency mining.</span>
+        </li>
+        <li>
+            <strong>2.4.4</strong> Apps should never suggest or require a restart of the device
+            <span class="insert"> or modifications to system settings unrelated to the core functionality of the application. For example, don’t
+                encourage users to turn off Wi-Fi, disable security features, etc</span>.</li>
+    </ul>
+</li>
+</ul>
+
+<ul class="no-bullet">
+    <li id="software-requirements" class="margin-top">
+        <strong>2.5 Software Requirements</strong>
+        <ul class="no-bullet margin-top-small">
+            <li>
+                <strong>2.5.2</strong> Apps should be self-contained in their bundles, and may not read or write data outside the
+                designated container area, nor may they download, install, or execute code
+                <span class="insert"> which introduces or changes features or functionality of the app</span>, including other apps.</li>
+            <li>
+                <strong>2.5.11</strong> SiriKit
+                <span class="insert"> and Shortcuts</span>
+                <ul class="no-bullet margin-top-small">
+                    <li>
+                        <strong>(i)</strong> Apps integrating SiriKit
+                        <span class="insert">and Shortcuts </span>should only sign up for intents they can handle without the support of an additional
+                        app and that users would expect from the stated functionality. For example, if your app is a meal
+                        planning app, you should not incorporate an intent to start a workout, even if the app shares integration
+                        with a fitness app.</li>
+                    <li>
+                        <strong>(ii)</strong> Ensure that the vocabulary and phrases in your plist pertains to your app and the
+                        <span class="delete">SiriKit</span>
+                        <span class="insert">Siri</span> functionality of the intents the app has registered for. Aliases must relate directly
+                        to your app or company name and should not be generic terms or include third party app names or services.</li>
+                    <li>
+                        <strong>(iii)</strong> Resolve the Siri request
+                        <span class="insert">or Shortcut </span>in the most direct way possible and do not insert ads or other marketing between
+                        the request and its fulfillment. Only
+                        <span class="delete">present interstitial UI</span>
+                        <span class="insert">request a disambiguation</span> when required to complete the task (e.g. asking the user to specify
+                        a particular type of workout).</li>
+                </ul>
+            </li>
+            <li>
+                <strong>2.5.13 </strong> Apps using facial recognition for account authentication must use
+                <a href="https://developer.apple.com/documentation/localauthentication/">LocalAuthentication</a> (and not ARKit or other facial recognition technology)
+                <span class="insert"> where possible</span>, and must use an alternate authentication method for users under 13 years old.</li>
+            <li>
+                <strong>
+                    <span class="insert">2.5.14 </span>
+                </strong>
+                <span class="insert"> Apps must request explicit user consent and provide a clear visual indication when recording, logging, or
+                    otherwise making a record of user activity. This includes any use of the device camera, microphone, or
+                    other user inputs.</span>
+            </li>
+            <li>
+                <strong>
+                    <span class="insert">2.5.15 </span>
+                </strong>
+                <span class="insert"> Apps that enable users to view and select files should include items from the Files app and the user’s iCloud
+                    documents.
+                </span>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+
+<ul class="no-bullet">
+    <li id="payments" class="margin-top">
+        <strong>3.1 Payments</strong>
+        <ul class="no-bullet margin-top-small">
+            <li id="in-app-purchase">
+                <strong>3.1.1 In-App Purchase:</strong>
+                <ul class="disc no-margin-top">
+                    <li>If you want to unlock features or functionality within your app, (by way of example: subscriptions, in-game
+                        currencies, game levels, access to premium content, or unlocking a full version), you must use in-app
+                        purchase. Apps may
+                        <span class="insert">not </span>use
+                        <span class="insert"> their own mechanisms to unlock content or functionality, such as license keys, augmented reality
+                            markers, QR codes, etc. Apps and their metadata may not include buttons, external links, or other
+                            calls to action that direct customers to purchasing mechanisms other than</span> in-app
+                        <span class="delete"> purchase currencies to enable customers to “tip” digital content providers in the app. Apps and their
+                            metadata may not include buttons, external links, or other calls to action that direct customers
+                            to purchasing mechanisms other than in-app</span> purchase.</li>
+                    <li>
+                        <span class="insert">Apps may use in-app purchase currencies to enable customers to “tip” digital content providers in
+                            the app.</span>
+                    </li>
+                    <li>
+                        <span class="insert">Non-subscription apps may offer a free time-based trial period before presenting a full unlock option
+                            by setting up a Non-Consumable IAP item at Price Tier 0 that follows the naming convention: “XX-day
+                            Trial.” Prior to the start of the trial, your app must clearly identify its duration, the content
+                            or services that will no longer be accessible when the trial ends, and any downstream charges
+                            the user would need to pay for full functionality. Learn more about managing content access and
+                            the duration of the trial period using </span>
+                        <a href="https://developer.apple.com/library/archive/releasenotes/General/ValidateAppStoreReceipt/Introduction.html">
+                            <span class="insert">Receipts</span>
+                        </a>
+                        <span class="insert"> and </span>
+                        <a href="https://developer.apple.com/documentation/devicecheck">
+                            <span class="insert">Device Check</span>
+                        </a>
+                        <span class="insert">.</span>
+                    </li>
+                </ul>
+            </li>
+
+            <li id="permissible-uses">
+                <strong>3.1.2(a) Permissible uses:</strong>
+                <ul class="disc margin-top-small">
+
+                    <span class="insert">Auto-renewing subscription apps may offer a free trial period to customers by providing the relevant
+                        information set forth in App Store Connect. Apps that attempt to trick users into purchasing a subscription
+                        under false pretenses or engage in bait-and-switch practices will be removed from the App Store and
+                        you may be removed from the Apple Developer Program. Learn more about </span>
+                    <a href="https://www.apple.com/app-store/subscriptions/">
+                        <span class="insert">Subscription Free Trials</span>
+                    </a>
+                    <span class="insert">.</span>
+            </li>
+            </ul>
+    </li>
+    <li id="reader-apps">
+        <strong>3.1.3
+            <span class="insert">(a)</span> “Reader” Apps:</strong> Apps may allow a user to access previously purchased content or content subscriptions
+        (specifically: magazines, newspapers, books, audio, music, video, access to professional databases, VoIP, cloud storage,
+        and approved services such as
+        <span class="delete">educational</span>
+        <span class="insert">classroom management</span> apps
+        <span class="delete"> that manage student grades and schedules</span>),
+        <span class="delete">as well as</span>
+        <span class="insert">provided that you agree not to directly or indirectly target iOS users to use a purchasing method other than in-app
+            purchase, and your general communications about other purchasing methods are not designed to discourage use of
+            in-app purchase.</span>
+    </li>
+    <li id="multiplatform-services">
+        <strong>
+            <span class="insert">3.1.3(b) Multiplatform Services:</span>
+        </strong>
+        <span class="insert"> Apps that operate across multiple platforms may allow users to access content, subscriptions, or features they have
+            acquired elsewhere, including</span> consumable items in multi-platform games, provided
+        <span class="delete">that you agree not to directly or indirectly target iOS users to use a purchasing method other than</span>
+        <span class="insert">those items are also available as</span> in-app
+        <span class="insert">purchases within the app. You must not directly or indirectly target iOS users to use a purchasing method other than
+            in-app </span>purchase, and your general communications about other purchasing methods
+        <span class="delete">are</span>
+        <span class="insert">must</span> not
+        <span class="delete">designed to </span>discourage use of in-app purchase.</li>
+    <li id="hardware-specific-content">
+        <strong>3.1.4
+            <span class="delete">Content Codes:</span>
+            <span class="insert">Hardware-Specific Content:</span>
+        </strong>
+        <span class="delete">Apps may not use their own mechanisms to unlock content or functionality, such as license keys, augmented reality
+            markers, QR codes, etc. </span>In limited circumstances, such as when features are dependent upon specific hardware
+        to function, the app may unlock that functionality without using in-app purchase (e.g. an astronomy app that adds
+        features when synced with a telescope). App features that work in combination with an approved physical product (such
+        as a toy) on an
+        <em>optional</em> basis may unlock functionality without using in-app purchase, provided that an in-app purchase option
+        is available as well. You may not, however, require users to purchase unrelated products or engage in advertising
+        or marketing activities to unlock app functionality.</li>
+    <li id="goods-and-services">
+        <strong>3.1.5 (a)
+            <span class="delete">Physical </span>Goods and Services Outside of the App:</strong> If your app enables people to purchase goods
+        or services that will be consumed outside of the app, you must use purchase methods other than in-app purchase to
+        collect those payments, such as Apple Pay or traditional credit card entry.</li>
+    <li>
+        <strong>3.1.5 (b) Cryptocurrencies:</strong>
+        <ul class="disc margin-top-small">
+            <li>
+                <span class="insert">(i) Wallets:</span> Apps may facilitate
+                <span class="delete">transmission of approved </span>virtual
+                <span class="delete">currencies</span>
+                <span class="insert">currency storage, provided they are offered by developers enrolled as an organization.</span>
+            </li>
+            <li>
+                <span class="insert">(ii) Mining: Apps may not mine for cryptocurrencies unless the processing is performed off device</span>
+                (e.g.
+                <span class="delete">Bitcoin</span>
+                <span class="insert">cloud-based mining).</span>
+            </li>
+            <li>
+                <span class="insert">(iii) Exchanges: Apps may facilitate transactions or transmissions of cryptocurrency on an approved exchange
+                </span>,
+                <span class="delete">DogeCoin</span>
+                <span class="insert">provided they are offered by the exchange itself.</span>
+            </li>
+            <li>
+                <span class="insert">(iv</span>)
+                <span class="delete">provided that they do so in compliance with all state and federal laws for the territories in which the app
+                    functions. </span>
+                <span class="insert">Initial Coin Offerings: </span>Apps facilitating Initial Coin Offerings (“ICOs”), cryptocurrency futures
+                trading, and other crypto-securities or quasi-securities trading must come from established banks, securities
+                firms, futures commission merchants (“FCM”), or other approved financial institutions and must comply with
+                all applicable law.</li>
+            <li>
+                <span class="insert">(v) Cryptocurrency apps may not offer currency for completing tasks, such as downloading other apps, encouraging
+                    other users to download, posting to social networks, etc.</span>
+            </li>
+        </ul>
+    </li>
+
+
+    <li id="advertising">
+        <strong>
+            <span class="insert">3.1.7 Advertising:</span>
+        </strong>
+        <span class="insert"> Ads displayed in an app must be appropriate for the app’s age rating, allow the user to see all information used
+            to target them for that ad (without requiring the user to leave the app), and may not engage in targeted or behavioral
+            advertising based on sensitive user data such as health/medical data (e.g. from the HealthKit APIs), school and
+            classroom data (e.g. from ClassKit), or from kids (e.g. from apps in the Kids Category), etc. Interstitial ads
+            or ads that interrupt or block the user experience must clearly indicate that they are an ad, must not manipulate
+            or trick users into tapping into them, and must provide easily accessible and visible close/skip buttons large
+            enough for people to easily dismiss the ad.</span>
+    </li>
+    </ul>
+    </li>
+
+    <li id="other-business-model-issues" class="margin-top">
+        <strong>3.2 Other Business Model Issues</strong>
+        <ul class="no-bullet margin-top-small">
+            <li id="unacceptable">
+                <strong>3.2.2 Unacceptable</strong>
+                <ul class="no-bullet margin-top-small">
+
+                    <li>
+                        <strong>
+                            <span class="insert">(ix)</span>
+                        </strong>
+                        <span class="insert"> Apps must not force users to rate the app, review the app, download other apps, or perform other
+                            similar actions in order to access functionality, content, or use of the app.</span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+<ul class="no-bullet">
+     <li id="minimum-functionality" class="margin-top"><strong>4.2 Minimum Functionality</strong>
+        <ul class="no-bullet margin-top-small">
+            
+            <li><strong>4.2.3</strong>
+                <ul class="disc margin-top-small">
+                    <li><span class="insert">(i)</span> Your app should work on its own without requiring installation of another app to function.</li>
+                    <li><span class="insert">(ii) Make sure you include sufficient content in the binary for the app to function at launch.</span></li>
+                    <li><span class="insert">(iii) If your app needs to download additional resources, disclose the size of the download and prompt users before doing so. Existing apps must comply with this guideline in any update submitted after January 1, 2019.</span></li>
+                </ul>
+            </li>
+           
+            <li><strong><span class="insert">4.2.7 Remote Application Mirroring:</span></strong><span class="insert"> If your remote desktop app acts as a mirror of specific software or services rather than a generic mirror of the host device, it must comply with the following:
+                </span><ul class="disc margin-top-small">
+                    <li><span class="insert">(a) The host device is a personal computer owned by the user, and both the host and client must be connected on a local and LAN-based network.</span></li>
+                    <li><span class="insert">(b) Any software or services appearing in the client are fully rendered on the screen of the host device, and may not use APIs or platform features beyond what is required to stream the Remote Desktop</span></li>
+                    <li><span class="insert">(c) All account creation and management must be initiated from the host device.</span></li>
+                    <li><span class="insert">(d) The UI appearing on the client does not resemble an iOS or App Store view, does not provide a store-like interface, or include the ability to browse, select, or purchase software not already owned or licensed by the user. For the sake of clarity, transactions taking place within mirrored software do not need to use in-app purchase, provided the transactions are processed on the host device.</span></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+
+    <li id="apple-sites-and-services" class="margin-top"><strong>4.5 Apple Sites and Services</strong>
+        <ul class="no-bullet margin-top-small">
+            <li><strong>4.5.4</strong> Push Notifications must not be required for the app to function, and should not be used for advertising, promotions, or direct marketing purposes or to send sensitive personal or confidential information.<span class="insert"> Abuse of these services may result in revocation of your privileges.</span></li>
+            <li><strong><span class="insert">4.5.6</span></strong><span class="insert"> Apps may use Unicode characters that render as Apple emojis in their app and app metadata. Apple emojis may not be used on other platforms or embedded directly in your app binary.</span></li>
+        </ul>
+    </li>
+    <li id="third-party-software" class="margin-top"><strong>4.7 HTML5 Games, Bots, etc. </strong><p>Apps may contain or run code that is not embedded in the binary (e.g. HTML5-based games, bots, etc.), as long as code distribution isn’t the main purpose of the app, the code is not offered in a store or store-like interface, and provided that the software (1) is free or purchased using in-app purchase; (2) only uses capabilities available in a standard WebKit view<span class="delete">; your app must use WebKit and JavaScript Core to run third party software and should not attempt to extend or expose native platform APIs to third party software; (3) is offered by developers that have joined the Apple Developer Program and signed the Apple Developer Program License Agreement; and (4) adheres to the terms of these App Review Guidelines</span> (e.g. <span class="insert">it must open and run natively in Safari without modifications or additional software); your app must use WebKit and JavaScript Core to run third party software and should not attempt to extend or expose native platform APIs to third party software; (3) is offered by developers that have joined the Apple Developer Program and signed the Apple Developer Program License Agreement; and (4) adheres to the terms of these App Review Guidelines (e.g. </span>does not include objectionable content). <span class="delete">You</span><span class="insert">Upon request, you</span> must provide an index of software and metadata available in your app<span class="delete"> upon request</span><span class="insert">. It must include Apple Developer Program Team IDs for the providers of the software along with a URL which App Review can use to confirm that the software complies with the requirements above</span>.</p></li>
+</ul>
+
+<ul class="no-bullet">
+    <li id="privacy"><strong>5.1 Privacy</strong>
+        <ul class="no-bullet margin-top-small">
+            <li id="data-collection-and-storage"><strong>5.1.1 Data Collection and Storage</strong>
+                <ul class="no-bullet margin-top-small">
+                    <li><strong>(i)<span class="insert"> Privacy Policies: </span></strong> <span class="insert">All apps must include a link to their privacy policy in the App Store Connect metadata field and within the app in an easily accessible manner. The privacy policy must clearly and explicitly: 
+                        </span><ul>
+                            <li><span class="insert">Identify what data, if any, the app/service collects, how it collects that data, and all uses of that data.</span></li>
+                            <li><span class="insert">Confirm that any third party with whom an app shares user data (in compliance with these Guidelines) — such as analytics tools, advertising networks and third party SDKs, as well as any parent, subsidiary or other related entities that will have access to user data — will provide the same or equal protection of user data as stated in the app’s privacy policy and required by these Guidelines.</span></li>
+                            <li><span class="insert">Explain its data retention/deletion policies and describe how a user can revoke consent and/or request deletion of the user’s data.</span></li>
+                        </ul>
+                    </li>
+                    <li><strong><span class="insert">(ii) Permission </span></strong>Apps that collect user or usage data must <span class="delete">have a privacy policy and </span>secure user consent for the collection. <span class="delete">This includes—but isn’t limited to—apps that implement HealthKit or other health/medical technologies</span><span class="insert">Paid functionality must not be dependent on or require a user to grant access to this data. Apps must also provide the customer with an easily accessible and understandable way to withdraw consent. Ensure your purpose strings clearly and completely describe your use of the data. Apps that collect data for a legitimate interest without consent by relying on the terms of the European Union’s General Data Protection Regulation (“GDPR”) or similar statute must comply with all terms of that law. Learn more about </span><a href="https://developer.apple.com/documentation/uikit/core_app/protecting_the_user_s_privacy"><span class="insert">Requesting Permission</span></a><span class="insert">.</span></li>
+                    <li><strong><span class="insert">(iii) Data Minimization: </span></strong><span class="insert">Apps should only request access to data relevant to the core functionality of the app and should only collect and use data that is required to accomplish the relevant task. Where possible</span>, <span class="insert">use the out-of-process picker or a share sheet rather than requesting full access to protected resources like Photos or Contacts.</span></li>
+                    <li><strong><span class="insert">(iv) Access </span></strong><span class="insert">Apps must respect the user’s permission settings and not attempt to manipulate, trick, or force people to consent to unnecessary data access. For example, </span>apps that <span class="delete">utilize ARKit</span><span class="insert">include the ability to post photos to a social network must not also require microphone access before allowing the user to upload photos. Where possible</span>, <span class="delete">Camera APIs</span><span class="insert">provide alternative solutions for users who don’t grant consent. For example</span>, <span class="delete">Photo APIs</span><span class="insert">if a user declines to share Location</span>, <span class="delete">or other software for depth of facial mapping</span><span class="insert">offer the ability to manually enter an address.</span></li>
+                    <li><strong><span class="insert">(v) Account Sign-In: </span></strong><span class="insert">If your app doesn’t include significant account-based features, let people use it without a log-in. Apps may not require users to enter personal</span> information<span class="insert"> to function</span>, <span class="delete">HomeKit, Keyboard extensions, Apple Pay, Stickers and iMessage extensions, include a login, or access user data from the device</span><span class="insert">except when directly relevant to the core functionality of the app or required by law</span>. <span class="delete">Your</span><span class="insert">If your core</span> app <span class="delete">description should let people know what types of access</span><span class="insert">functionality is not related to a specific social network</span> (e.g. <span class="delete">location, contacts, calendar, etc.) are requested by your app, and what aspects of the app won’t work if the user doesn’t grant permission.</span>
+                    <span class="delete">(ii)</span><span class="delete"> If your app doesn’t include significant account-based features, let people use it without a log-in. Apps may not require users to enter personal information to function, except when directly relevant to the core functionality of the app or required by law. If your core app functionality is not related to a specific social network (e.g. </span>Facebook, WeChat, Weibo, Twitter, etc.), you must provide access without a login or via another mechanism. Pulling basic profile information, sharing to the social network, or inviting friends to use the app are not considered core app functionality.<span class="insert"> The app must also include a mechanism to revoke social network credentials and disable data access between the app and social network from within the app. An app may not store credentials or tokens to social networks off of the device and may only use such credentials or tokens to directly connect to the social network from the app itself while the app is in use.</span></li>
+                    <li><strong>(<span class="delete">iii</span><span class="insert">vi</span>) </strong> Developers that use their apps to surreptitiously discover passwords or other private data will be removed from the Developer Program.</li>
+                    <li><strong>(<span class="delete">iv</span><span class="insert">vii</span>) </strong>SafariViewContoller must be used to visibly present information to users; the controller may not be hidden or obscured by other views or layers. Additionally, an app may not use SafariViewController to track users without their knowledge and consent.</li>
+                </ul>
+            </li>
+            <li id="data-use-and-sharing"><strong>5.1.2 Data Use and Sharing</strong>
+                <ul class="no-bullet margin-top-small">
+                    <li><strong>(i) </strong><span class="insert">Unless otherwise permitted by law, you may not use, transmit, or share someone’s personal data without first obtaining their permission.</span> You <span class="insert">must provide access to information about how and where the data will be used. Data collected from apps </span>may <span class="insert">only be shared with third parties to improve the app or serve advertising (in compliance with the </span><a href="https://developer.apple.com/terms/"><span class="insert">Apple Developer Program License Agreement</span></a><span class="insert">.). Apps that share user data without user consent or otherwise complying with data privacy laws may be removed from sale and may result in your removal from the Apple Developer Program.</span></li>
+                    <li><strong><span class="insert">(ii) </span></strong><span class="insert">Data collected for one purpose may </span>not<span class="insert"> be repurposed without further consent unless otherwise explicitly permitted by law. </span></li>
+                    <li><strong><span class="insert">(iii) </span></strong><span class="insert">Apps should not attempt to surreptitiously build a user profile based on collected data and may not</span> attempt, facilitate, or encourage others to identify anonymous users or reconstruct user profiles based on data collected from <span class="delete">depth and</span><span class="insert">Apple-provided APIs or any data that you say has been collected in an “anonymized,” “aggregated,” or otherwise non-identifiable way.</span></li>
+                    <li><strong><span class="insert">(iv) </span></strong><span class="insert">Do not use information from Contacts, Photos, or other APIs that access user data to build a contact database for your own use or for sale</span>/<span class="delete">or facial mapping tools</span><span class="insert">distribution to third parties, and don’t collect information about which other apps are installed on a user’s device for the purposes of analytics or advertising/marketing.</span></li>
+                    <li><strong><span class="insert">(v) </span></strong><span class="insert">Do not contact people using information collected via a user’s Contacts or Photos, except at the explicit initiative of that user on an individualized basis; do not include a Select All option or default the selection of all contacts. You must provide the user with a clear description of how the message will appear to the recipient before sending it</span> (e.g. <span class="delete">ARKit, Camera APIs, or Photo APIs</span><span class="insert">What will the message say? Who will appear to be the sender?</span>)<span class="delete">, or data that you say has been collected in an “anonymized,” “aggregated,” or otherwise non-identifiable way</span>. <span class="delete">You may not use or transmit someone’s personal data without first obtaining their permission and providing access to information about how and where the data will be used.</span></li>
+                    <li><strong>(<span class="delete">ii</span><span class="insert">vi</span>) </strong> Data <span class="delete">collected from apps may not be used or shared with third parties for purposes unrelated to improving the user experience or software</span><span class="insert">gathered from the HomeKit API, HealthKit, Consumer Health Records API, MovementDisorder APIs, ClassKit or from depth and</span>/<span class="delete">hardware performance connected to the app’s functionality, or to serve advertising in compliance with the </span><span class="delete">Apple Developer Program License Agreement</span><span class="delete">.</span>
+                    <span class="delete">(iii)</span><span class="delete"> Data gathered from the HomeKit API or from depth and/</span>or facial mapping tools (e.g. ARKit, Camera APIs, or Photo APIs) may not be used for <span class="insert">marketing, </span>advertising or<span class="delete"> other</span> use-based data mining, including by third parties.<span class="insert"> Learn more about best practices for implementing </span><a href="https://developer.apple.com/documentation/callkit"><span class="insert">CallKit</span></a><span class="insert">, </span><a href="https://developer.apple.com/documentation/healthkit"><span class="insert">HealthKit</span></a><span class="insert">, </span><a href="https://developer.apple.com/documentation/classkit"><span class="insert">ClassKit</span></a><span class="insert">, and </span><a href="https://developer.apple.com/documentation/arkit"><span class="insert">ARKit</span></a><span class="insert">.</span></li>
+                    <li><strong>(<span class="delete">iv</span><span class="insert">vii</span>) </strong> Apps using Apple Pay may only share user data acquired via Apple Pay with third parties to facilitate or improve delivery of goods and services.</li>
+                </ul>
+            </li>
+            
+            <li id="kids"><strong>5.1.4 Kids</strong>
+                <p>For many reasons, it is critical to use care when dealing with personal data from kids, and we encourage you to carefully review all the requirements for complying with laws like the Children’s Online Privacy Protection Act (“COPPA”)<span class="insert">, the European Union’s General Data Protection Regulation (“GDPR”),</span> and any international<span class="insert"> or local</span> equivalents.</p>
+            </li>
+        </ul>
+    </li>
+    
+    <li id="vpn-apps" class="margin-top"><strong>5.4 VPN Apps</strong>
+        <p>Apps offering VPN services must utilize the <a href="https://developer.apple.com/documentation/networkextension/nevpnmanager">NEVPNManager<span class="insert"> API</span></a> <span class="delete">API and</span><span class="insert">and may only be offered by developers enrolled as an organization. You</span> must make a clear declaration of what user data will be collected and how it will be used. VPN apps must not violate local laws, and if you choose to make your VPN app available in a territory that requires a VPN license, you must provide your license information in the App Review Notes field.</p>
+    </li>							
+
+    <li id="code-of-conduct" class="margin-top"><strong><span class="insert">5.5 Developer Code of Conduct</span></strong>
+        <p><span class="insert">Please treat everyone with respect, whether in your responses to App Store reviews, customer support requests, or when communicating with Apple, including your responses in Resolution Center. Do not engage in harassment of any kind, discriminatory practices, intimidation, bullying, and don’t encourage others to engage in any of the above.</span></p>
+        <p><span class="insert">Customer trust is the cornerstone of the App Store’s success. Apps should never prey on users or attempt to rip-off customers, trick them into making unwanted purchases, force them to share unnecessary data, raise prices in a tricky manner, charge for features or content that are not delivered, or engage in any other manipulative practices within or outside of the app.</span></p>
+    </li>						
+</ul>
