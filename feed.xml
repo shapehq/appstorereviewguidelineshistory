@@ -1,20 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>App Store Review Guidelines History</title>
-    <atom:link href="http://appstorereviewguidelineshistory.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
-    <link>http://appstorereviewguidelineshistory.com</link>
-    <description></description>
-    <pubDate>Mon, 04 Jun 2018 02:00:00 +0200</pubDate>
-    <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
-    <language>en</language>
-    <item>
-      <title>Changes after WWDC 2018</title>
-      <link>http://appstorereviewguidelineshistory.com/articles/2018-06-04-wwdc2018/</link>
-      <pubDate>Mon, 04 Jun 2018 02:00:00 +0200</pubDate>
-      <guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2018-06-04-wwdc2018/</guid>
-      <author></author>
-      <description>&lt;p&gt;After the keynote of the World Wide Developers Conference 2018, Apple updated the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt; with a bunch of changes and new rules. It is clear that the theme of this update is user privacy and data protection. You can check out all the additions (marked with green) and removals (marked with red) below, but a few noteworthy changes include:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>App Store Review Guidelines History</title><atom:link href="http://appstorereviewguidelineshistory.com/feed.xml" rel="self" type="application/rss+xml"></atom:link><link>http://appstorereviewguidelineshistory.com</link><description></description><pubDate>Thu, 20 Dec 2018 01:00:00 +0100</pubDate><generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator><language>en</language><item><title>Gifting in-app purchases</title><link>http://appstorereviewguidelineshistory.com/articles/2018-12-20-gifting-in-app-purchases/</link><pubDate>Thu, 20 Dec 2018 01:00:00 +0100</pubDate><guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2018-12-20-gifting-in-app-purchases/</guid><author></author><description>&lt;p&gt;Apple has updated the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt;, adding some minor changes, the most important being a small change to now allow gifting in-app purchases:&lt;/p&gt;
+</description></item><item><title>Changes after WWDC 2018</title><link>http://appstorereviewguidelineshistory.com/articles/2018-06-04-wwdc2018/</link><pubDate>Mon, 04 Jun 2018 02:00:00 +0200</pubDate><guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2018-06-04-wwdc2018/</guid><author></author><description>&lt;p&gt;After the keynote of the World Wide Developers Conference 2018, Apple updated the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt; with a bunch of changes and new rules. It is clear that the theme of this update is user privacy and data protection. You can check out all the additions (marked with green) and removals (marked with red) below, but a few noteworthy changes include:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Apps now must clearly describe new features and changes in the “What’s New” section of the App Store. Several of the large social network companies have been using a practice where they reuse a generic update text for every release and then enable new features remotely on a per-user basis. This appears to no longer be permitted.&lt;/li&gt;
 &lt;li&gt;Developers are now allowed to provide time based free trials for non-subscription apps.&lt;/li&gt;
@@ -28,15 +13,7 @@
 &lt;li&gt;There is a new Developer Code of Conduct section.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Check out all the changes yourself below.&lt;/p&gt;
-</description>
-    </item>
-    <item>
-      <title>Crypto currencies and ICOs, template apps, loot boxes and more</title>
-      <link>http://appstorereviewguidelineshistory.com/articles/2017-12-21-tba/</link>
-      <pubDate>Thu, 21 Dec 2017 01:00:00 +0100</pubDate>
-      <guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2017-12-21-tba/</guid>
-      <author></author>
-      <description>&lt;p&gt;Wednesday the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt; was updated with quite a few changes. Besides some minor clarifications, new sections were introduced about:&lt;/p&gt;
+</description></item><item><title>Crypto currencies and ICOs, template apps, loot boxes and more</title><link>http://appstorereviewguidelineshistory.com/articles/2017-12-21-tba/</link><pubDate>Thu, 21 Dec 2017 01:00:00 +0100</pubDate><guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2017-12-21-tba/</guid><author></author><description>&lt;p&gt;Wednesday the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt; was updated with quite a few changes. Besides some minor clarifications, new sections were introduced about:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Crypto currencies and ICOs now have a dedicated section.&lt;/li&gt;
 &lt;li&gt;The ban on template apps is clarified so its now more clear exactly what kinds of apps are affected. &lt;a href=&quot;https://techcrunch.com/2017/12/20/apple-revises-its-controversial-guidelines-on-template-based-apps/&quot;&gt;Techcrunch spotted this change too&lt;/a&gt;.&lt;/li&gt;
@@ -46,15 +23,7 @@
 &lt;li&gt;A new section on VPN apps details some rules specific to this app type.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Check out all the changes below.&lt;/p&gt;
-</description>
-    </item>
-    <item>
-      <title>New guidelines for Face ID, ARKit, privacy policies and more.</title>
-      <link>http://appstorereviewguidelineshistory.com/articles/2017-09-15-face-id-arkit-privacy-policies/</link>
-      <pubDate>Fri, 15 Sep 2017 02:00:00 +0200</pubDate>
-      <guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2017-09-15-face-id-arkit-privacy-policies/</guid>
-      <author></author>
-      <description>&lt;p&gt;With the imminent release of iOS 11 and the announcement of the iPhone X with Face ID it was only natural for Apple to update the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt;. But this update is actually rather big and includes many changes that does not relate to the new products as such.&lt;/p&gt;
+</description></item><item><title>New guidelines for Face ID, ARKit, privacy policies and more.</title><link>http://appstorereviewguidelineshistory.com/articles/2017-09-15-face-id-arkit-privacy-policies/</link><pubDate>Fri, 15 Sep 2017 02:00:00 +0200</pubDate><guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2017-09-15-face-id-arkit-privacy-policies/</guid><author></author><description>&lt;p&gt;With the imminent release of iOS 11 and the announcement of the iPhone X with Face ID it was only natural for Apple to update the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt;. But this update is actually rather big and includes many changes that does not relate to the new products as such.&lt;/p&gt;
 &lt;p&gt;A few notable changes and additions that caught my mind:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Don’t market your app with features or content it does not have (such as claimed “virus scanners”)&lt;/li&gt;
@@ -70,15 +39,7 @@
 &lt;li&gt;Some typos were fixed (not all included in the diff below)&lt;/li&gt;
 &lt;li&gt;Various other changes; Check the details below.&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    <item>
-      <title>New rules following WWDC 2017</title>
-      <link>http://appstorereviewguidelineshistory.com/articles/2017-06-08-new-rules-following-wwdc-2017/</link>
-      <pubDate>Thu, 08 Jun 2017 02:00:00 +0200</pubDate>
-      <guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2017-06-08-new-rules-following-wwdc-2017/</guid>
-      <author></author>
-      <description>&lt;p&gt;After a densely packed WWDC keynote with many new features for developers and user, Apple also published a new version of the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt;. There are many changes ranging from minor rephrasings to totally new rules.&lt;/p&gt;
+</description></item><item><title>New rules following WWDC 2017</title><link>http://appstorereviewguidelineshistory.com/articles/2017-06-08-new-rules-following-wwdc-2017/</link><pubDate>Thu, 08 Jun 2017 02:00:00 +0200</pubDate><guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2017-06-08-new-rules-following-wwdc-2017/</guid><author></author><description>&lt;p&gt;After a densely packed WWDC keynote with many new features for developers and user, Apple also published a new version of the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt;. There are many changes ranging from minor rephrasings to totally new rules.&lt;/p&gt;
 &lt;p&gt;A few notable changes and additions that caught my mind:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;New note on how to respond to App Store customer reviews.&lt;/li&gt;
@@ -91,28 +52,12 @@
 &lt;li&gt;Your app description should let people know what types of access (e.g. location, contacts, calendar, etc.) are requested by your app, and what aspects of the app won’t work if the user doesn’t grant permission.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;All the changes are listed below. Additions have green highlight and deletions have red highlight and strikeout.&lt;/p&gt;
-</description>
-    </item>
-    <item>
-      <title>Added nonprofit payment exception</title>
-      <link>http://appstorereviewguidelineshistory.com/articles/2016-11-14-added-nonprofit-payment-exception/</link>
-      <pubDate>Mon, 14 Nov 2016 01:00:00 +0100</pubDate>
-      <guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2016-11-14-added-nonprofit-payment-exception/</guid>
-      <author></author>
-      <description>&lt;p&gt;With this minor update to the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt; Apple added a subsection saying that approved nonprofits may fundraise directly within their app using Apple Pay. There is also &lt;a href=&quot;https://developer.apple.com/support/apple-pay-nonprofits/&quot;&gt;a link to a new page about how to become an approved nonprofit&lt;/a&gt;.
+</description></item><item><title>Added nonprofit payment exception</title><link>http://appstorereviewguidelineshistory.com/articles/2016-11-14-added-nonprofit-payment-exception/</link><pubDate>Mon, 14 Nov 2016 01:00:00 +0100</pubDate><guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2016-11-14-added-nonprofit-payment-exception/</guid><author></author><description>&lt;p&gt;With this minor update to the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt; Apple added a subsection saying that approved nonprofits may fundraise directly within their app using Apple Pay. There is also &lt;a href=&quot;https://developer.apple.com/support/apple-pay-nonprofits/&quot;&gt;a link to a new page about how to become an approved nonprofit&lt;/a&gt;.
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;The change followed an &lt;a href=&quot;http://www.apple.com/newsroom/2016/11/a-touch-of-giving-with-apple-pay.html&quot;&gt;official press release from Apple&lt;/a&gt; that details the new program allowing Apple Pay donations to nonprofits.
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;This change also included Apple renaming Mac OS X to its new name macOS in several places.&lt;/p&gt;
-</description>
-    </item>
-    <item>
-      <title>Updated subscription rules, SiriKit, Stickers and more</title>
-      <link>http://appstorereviewguidelineshistory.com/articles/2016-09-01-subscriptions-siri-kit-stickers/</link>
-      <pubDate>Thu, 01 Sep 2016 02:00:00 +0200</pubDate>
-      <guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2016-09-01-subscriptions-siri-kit-stickers/</guid>
-      <author></author>
-      <description>&lt;p&gt;This update to the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt; is mostly about the new iOS features SiriKit and Stickers, but also includes the previously promised new rules for subscription based apps. The full diff is listed below, but a few interesting new bits include:&lt;/p&gt;
+</description></item><item><title>Updated subscription rules, SiriKit, Stickers and more</title><link>http://appstorereviewguidelineshistory.com/articles/2016-09-01-subscriptions-siri-kit-stickers/</link><pubDate>Thu, 01 Sep 2016 02:00:00 +0200</pubDate><guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2016-09-01-subscriptions-siri-kit-stickers/</guid><author></author><description>&lt;p&gt;This update to the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt; is mostly about the new iOS features SiriKit and Stickers, but also includes the previously promised new rules for subscription based apps. The full diff is listed below, but a few interesting new bits include:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;App names must be limited to 50 characters and should not include terms or descriptions that are not the name of the app.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -126,15 +71,7 @@
 &lt;p&gt;And remember that even after your app has been approved, you should update your app to ensure it remains functional and engaging to new and existing customers. Apps that stop working or offer a degraded experience may be removed from the App Store at any time.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Yes Apple will finally start to remove abandoned apps from the App Store. This should be a win for everyone.&lt;/p&gt;
-</description>
-    </item>
-    <item>
-      <title>Totally rewritten after WWDC keynote</title>
-      <link>http://appstorereviewguidelineshistory.com/articles/2016-06-13-totally-rewritten-wwdc/</link>
-      <pubDate>Mon, 13 Jun 2016 02:00:00 +0200</pubDate>
-      <guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2016-06-13-totally-rewritten-wwdc/</guid>
-      <author></author>
-      <description>&lt;p&gt;What a keynote! Apple announced significant updates for their 4 big platforms: iOS, macOS, watchOS, and tvOS. And right after the keynote ended the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt; were also updated. But not just updated… Totally rewritten! The previous 30 sections have been reduce to only 5 sections but the word count has gone up from around 5000 words to over 6000 words.
+</description></item><item><title>Totally rewritten after WWDC keynote</title><link>http://appstorereviewguidelineshistory.com/articles/2016-06-13-totally-rewritten-wwdc/</link><pubDate>Mon, 13 Jun 2016 02:00:00 +0200</pubDate><guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2016-06-13-totally-rewritten-wwdc/</guid><author></author><description>&lt;p&gt;What a keynote! Apple announced significant updates for their 4 big platforms: iOS, macOS, watchOS, and tvOS. And right after the keynote ended the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt; were also updated. But not just updated… Totally rewritten! The previous 30 sections have been reduce to only 5 sections but the word count has gone up from around 5000 words to over 6000 words.
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;This post will not include a diff showing what changed since &lt;a href=&quot;http://www.appstorereviewguidelineshistory.com/articles/2016-04-19-carekit-apple-music&quot;&gt;the last update in April&lt;/a&gt; since basically &lt;em&gt;everything&lt;/em&gt; changed.
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
@@ -149,97 +86,22 @@
 &lt;p&gt;So I guess that means Apple have a whitelist of what kinds of apps will be allowed to use Subscription Pricing.
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;Basically you should read the new guidelines from start to end. If you stumble upon new rules that were not mentioned before, then please let us know so we can update this post.&lt;/p&gt;
-</description>
-    </item>
-    <item>
-      <title>New Apple Music API section, CareKit and other updates</title>
-      <link>http://appstorereviewguidelineshistory.com/articles/2016-04-19-carekit-apple-music/</link>
-      <pubDate>Tue, 19 Apr 2016 02:00:00 +0200</pubDate>
-      <guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2016-04-19-carekit-apple-music/</guid>
-      <author></author>
-      <description>&lt;p&gt;Today Apple once again updated the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt;. It’s been 6 months since the last update, and the recent &lt;a href=&quot;https://developer.apple.com/library/ios/releasenotes/General/WhatsNewIniOS/Articles/iOS9_3.html&quot;&gt;iOS 9.3 release added several new developer APIs&lt;/a&gt;; so this update was not unexpected.
+</description></item><item><title>New Apple Music API section, CareKit and other updates</title><link>http://appstorereviewguidelineshistory.com/articles/2016-04-19-carekit-apple-music/</link><pubDate>Tue, 19 Apr 2016 02:00:00 +0200</pubDate><guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2016-04-19-carekit-apple-music/</guid><author></author><description>&lt;p&gt;Today Apple once again updated the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt;. It’s been 6 months since the last update, and the recent &lt;a href=&quot;https://developer.apple.com/library/ios/releasenotes/General/WhatsNewIniOS/Articles/iOS9_3.html&quot;&gt;iOS 9.3 release added several new developer APIs&lt;/a&gt;; so this update was not unexpected.
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;Most significant is perhaps the new section 10.8 that states apps using background location services must provide a reason for doing so. What Apple considers a fair reason is not really clear although the &lt;a href=&quot;https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/index.html&quot;&gt;HIG&lt;/a&gt; is mentioned.
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;Another significant addition is the new section 30 about the Apple Music API that was introduced in iOS 9.3. As described in the &lt;a href=&quot;https://developer.apple.com/library/ios/releasenotes/General/WhatsNewIniOS/Articles/iOS9_3.html&quot;&gt;iOS 9.3 release note&lt;/a&gt; the new API allows 3rd party apps to add music to a user’s Apple Music library and play it.&lt;/p&gt;
 &lt;p&gt;The update did also include some minor additions mentioning new Apple products such as CareKit and Apple Music in various sections. Additions are highlighted in green below.&lt;/p&gt;
-</description>
-    </item>
-    <item>
-      <title>Guidelines updated for tvOS apps</title>
-      <link>http://appstorereviewguidelineshistory.com/articles/2015-10-21-guidelines-updated-for-tvos-apps/</link>
-      <pubDate>Wed, 21 Oct 2015 02:00:00 +0200</pubDate>
-      <guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2015-10-21-guidelines-updated-for-tvos-apps/</guid>
-      <author></author>
-      <description>&lt;p&gt;Along with other releases (iOS 9.1, watchOS 2.0.1 and tvOS GM) Apple silently updated the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt; today. The changes listed below are mostly related to the release of the new Apple TV, but the new Apple Pencil also gets a mention.
+</description></item><item><title>Guidelines updated for tvOS apps</title><link>http://appstorereviewguidelineshistory.com/articles/2015-10-21-guidelines-updated-for-tvos-apps/</link><pubDate>Wed, 21 Oct 2015 02:00:00 +0200</pubDate><guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2015-10-21-guidelines-updated-for-tvos-apps/</guid><author></author><description>&lt;p&gt;Along with other releases (iOS 9.1, watchOS 2.0.1 and tvOS GM) Apple silently updated the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt; today. The changes listed below are mostly related to the release of the new Apple TV, but the new Apple Pencil also gets a mention.
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;The new section 2.27 is rather confusing in its mention of the new Siri remote without explaining that the section only applies to tvOS apps (which we assume).
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;The updated section 3.6 now says that tvOS top shelf extensions must only show content that adhere to the 4+ age rating. This basically means that we should be very careful with using any user generated content for the top shelf.&lt;/p&gt;
-</description>
-    </item>
-    <item>
-      <title>After releasing iOS 9 Apple just renames Passbook and make no other changes</title>
-      <link>http://appstorereviewguidelineshistory.com/articles/2015-09-16-after-releasing-ios-9-apple-renames-passbook/</link>
-      <pubDate>Wed, 16 Sep 2015 02:00:00 +0200</pubDate>
-      <guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2015-09-16-after-releasing-ios-9-apple-renames-passbook/</guid>
-      <author></author>
-      <description>&lt;p&gt;With the release of iOS 9 we expected Apple to make a bunch of changes to the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt; like &lt;a href=&quot;http://www.appstorereviewguidelineshistory.com/articles/2014-09-03-previews-flagging-privacy-policy-extensions-homekit-healtkit-testflight/&quot;&gt;they did last year&lt;/a&gt;. But this time the only change is that Passbook has been renamed to Wallet.&lt;/p&gt;
-</description>
-    </item>
-    <item>
-      <title>Watch apps for telling time and Human Subject Research</title>
-      <link>http://appstorereviewguidelineshistory.com/articles/2015-04-28-watch-apps-for-telling-time-human-subject-research-ethics-review/</link>
-      <pubDate>Tue, 28 Apr 2015 02:00:00 +0200</pubDate>
-      <guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2015-04-28-watch-apps-for-telling-time-human-subject-research-ethics-review/</guid>
-      <author></author>
-      <description>&lt;p&gt;Shortly after customers begin to receive their Apple Watches and &lt;a href=&quot;http://techcrunch.com/2015/04/27/apple-boasts-over-3500-apple-watch-apps-already-available/&quot;&gt;Apple boasts over 3,500 Watch apps are available&lt;/a&gt;, Apple made two small changes to the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt;. The new section 10.7 states that watch apps must do more than just telling time. Also a new requirement on Human Subject Research says that the research should have approval from an independant ethics review board.&lt;/p&gt;
-</description>
-    </item>
-    <item>
-      <title>Research Kit, Apple Pay recurring payments, SoundCloud downloads</title>
-      <link>http://appstorereviewguidelineshistory.com/articles/2015-03-12-research-kit-apple-pay-recurring/</link>
-      <pubDate>Thu, 12 Mar 2015 01:00:00 +0100</pubDate>
-      <guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2015-03-12-research-kit-apple-pay-recurring/</guid>
-      <author></author>
-      <description>&lt;p&gt;After the Spring Forward media event earlier this week Apple has updated the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt; with a few changes to the HealthKit so that it also mentions ResearchKit and there is a new paragraph on Apple Pay recurring payments. Finally there is a new paragraph stating that apps downloading media from online services such as YouTube, SoundCloud, and Vimeo etc. must obtain permission from those companies before doing so.&lt;/p&gt;
-</description>
-    </item>
-    <item>
-      <title>Apple Pay Changes</title>
-      <link>http://appstorereviewguidelineshistory.com/articles/2014-09-11-apple-pay-changes/</link>
-      <pubDate>Thu, 11 Sep 2014 02:00:00 +0200</pubDate>
-      <guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2014-09-11-apple-pay-changes/</guid>
-      <author></author>
-      <description>&lt;p&gt;Only a week after the last revision Apple again updates the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt; with a new section 29 on Apple Pay.&lt;/p&gt;
-</description>
-    </item>
-    <item>
-      <title>Introducing Previews, Flagging, Privacy Policy, Extensions, HomeKit, Healtkit and TestFlight</title>
-      <link>http://appstorereviewguidelineshistory.com/articles/2014-09-03-previews-flagging-privacy-policy-extensions-homekit-healtkit-testflight/</link>
-      <pubDate>Wed, 03 Sep 2014 02:00:00 +0200</pubDate>
-      <guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2014-09-03-previews-flagging-privacy-policy-extensions-homekit-healtkit-testflight/</guid>
-      <author></author>
-      <description>&lt;p&gt;Together with the iOS 8 release Apple updated the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt; with new sections on Extensions, HomeKit, HealtKit and Testflight. Some rules on the new app previews (videos) were also introduce along with a requirement to have a privacy policy and a flagging feature if the app has user generated content.&lt;/p&gt;
-</description>
-    </item>
-    <item>
-      <title>Apple Allows Recommending Related Apps and Bitcoin Apps.</title>
-      <link>http://appstorereviewguidelineshistory.com/articles/2014-08-09-apple-allows-recommending-related-apps-and-bitcoin-apps/</link>
-      <pubDate>Sat, 09  Aug 2014 02:00:00 +0200</pubDate>
-      <guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2014-08-09-apple-allows-recommending-related-apps-and-bitcoin-apps/</guid>
-      <author></author>
-      <description>&lt;p&gt;Most notably in this set of changes of the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt;, Apple now allows apps to show a collection of other apps that don’t have to be your own if they form a collection in a way Apple approves. Apps are now also allowed to facilitate transmission of approved virtual currencies. In other words Bitcoin apps are now officially allowed.&lt;/p&gt;
-</description>
-    </item>
-    <item>
-      <title>Cellular Download Limit and Kids Category</title>
-      <link>http://appstorereviewguidelineshistory.com/articles/2014-03-30-cellular-download-limit-and-kids-category/</link>
-      <pubDate>Sun, 30 Mar 2014 01:00:00 +0100</pubDate>
-      <guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2014-03-30-cellular-download-limit-and-kids-category/</guid>
-      <author></author>
-      <description>&lt;p&gt;A few general changes were introduced in this revision of the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt;. The limit for downloading apps over 3G cellular were raised from 50 MB to 100 MB the iBookstore was renamed to iBooks Store. Section 24 “Kids Apps” was renamed to “Kids Category” along with the introduction of the new special App Store category.&lt;/p&gt;
-</description>
-    </item>
-  </channel>
-</rss>
+</description></item><item><title>After releasing iOS 9 Apple just renames Passbook and make no other changes</title><link>http://appstorereviewguidelineshistory.com/articles/2015-09-16-after-releasing-ios-9-apple-renames-passbook/</link><pubDate>Wed, 16 Sep 2015 02:00:00 +0200</pubDate><guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2015-09-16-after-releasing-ios-9-apple-renames-passbook/</guid><author></author><description>&lt;p&gt;With the release of iOS 9 we expected Apple to make a bunch of changes to the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt; like &lt;a href=&quot;http://www.appstorereviewguidelineshistory.com/articles/2014-09-03-previews-flagging-privacy-policy-extensions-homekit-healtkit-testflight/&quot;&gt;they did last year&lt;/a&gt;. But this time the only change is that Passbook has been renamed to Wallet.&lt;/p&gt;
+</description></item><item><title>Watch apps for telling time and Human Subject Research</title><link>http://appstorereviewguidelineshistory.com/articles/2015-04-28-watch-apps-for-telling-time-human-subject-research-ethics-review/</link><pubDate>Tue, 28 Apr 2015 02:00:00 +0200</pubDate><guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2015-04-28-watch-apps-for-telling-time-human-subject-research-ethics-review/</guid><author></author><description>&lt;p&gt;Shortly after customers begin to receive their Apple Watches and &lt;a href=&quot;http://techcrunch.com/2015/04/27/apple-boasts-over-3500-apple-watch-apps-already-available/&quot;&gt;Apple boasts over 3,500 Watch apps are available&lt;/a&gt;, Apple made two small changes to the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt;. The new section 10.7 states that watch apps must do more than just telling time. Also a new requirement on Human Subject Research says that the research should have approval from an independant ethics review board.&lt;/p&gt;
+</description></item><item><title>Research Kit, Apple Pay recurring payments, SoundCloud downloads</title><link>http://appstorereviewguidelineshistory.com/articles/2015-03-12-research-kit-apple-pay-recurring/</link><pubDate>Thu, 12 Mar 2015 01:00:00 +0100</pubDate><guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2015-03-12-research-kit-apple-pay-recurring/</guid><author></author><description>&lt;p&gt;After the Spring Forward media event earlier this week Apple has updated the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt; with a few changes to the HealthKit so that it also mentions ResearchKit and there is a new paragraph on Apple Pay recurring payments. Finally there is a new paragraph stating that apps downloading media from online services such as YouTube, SoundCloud, and Vimeo etc. must obtain permission from those companies before doing so.&lt;/p&gt;
+</description></item><item><title>Apple Pay Changes</title><link>http://appstorereviewguidelineshistory.com/articles/2014-09-11-apple-pay-changes/</link><pubDate>Thu, 11 Sep 2014 02:00:00 +0200</pubDate><guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2014-09-11-apple-pay-changes/</guid><author></author><description>&lt;p&gt;Only a week after the last revision Apple again updates the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt; with a new section 29 on Apple Pay.&lt;/p&gt;
+</description></item><item><title>Introducing Previews, Flagging, Privacy Policy, Extensions, HomeKit, Healtkit and TestFlight</title><link>http://appstorereviewguidelineshistory.com/articles/2014-09-03-previews-flagging-privacy-policy-extensions-homekit-healtkit-testflight/</link><pubDate>Wed, 03 Sep 2014 02:00:00 +0200</pubDate><guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2014-09-03-previews-flagging-privacy-policy-extensions-homekit-healtkit-testflight/</guid><author></author><description>&lt;p&gt;Together with the iOS 8 release Apple updated the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt; with new sections on Extensions, HomeKit, HealtKit and Testflight. Some rules on the new app previews (videos) were also introduce along with a requirement to have a privacy policy and a flagging feature if the app has user generated content.&lt;/p&gt;
+</description></item><item><title>Apple Allows Recommending Related Apps and Bitcoin Apps.</title><link>http://appstorereviewguidelineshistory.com/articles/2014-08-09-apple-allows-recommending-related-apps-and-bitcoin-apps/</link><pubDate>Sat, 09  Aug 2014 02:00:00 +0200</pubDate><guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2014-08-09-apple-allows-recommending-related-apps-and-bitcoin-apps/</guid><author></author><description>&lt;p&gt;Most notably in this set of changes of the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt;, Apple now allows apps to show a collection of other apps that don’t have to be your own if they form a collection in a way Apple approves. Apps are now also allowed to facilitate transmission of approved virtual currencies. In other words Bitcoin apps are now officially allowed.&lt;/p&gt;
+</description></item><item><title>Cellular Download Limit and Kids Category</title><link>http://appstorereviewguidelineshistory.com/articles/2014-03-30-cellular-download-limit-and-kids-category/</link><pubDate>Sun, 30 Mar 2014 01:00:00 +0100</pubDate><guid isPermaLink="true">http://appstorereviewguidelineshistory.com/articles/2014-03-30-cellular-download-limit-and-kids-category/</guid><author></author><description>&lt;p&gt;A few general changes were introduced in this revision of the &lt;a href=&quot;https://developer.apple.com/app-store/review/guidelines/&quot;&gt;App Store Review Guidelines&lt;/a&gt;. The limit for downloading apps over 3G cellular were raised from 50 MB to 100 MB the iBookstore was renamed to iBooks Store. Section 24 “Kids Apps” was renamed to “Kids Category” along with the introduction of the new special App Store category.&lt;/p&gt;
+</description></item></channel></rss>

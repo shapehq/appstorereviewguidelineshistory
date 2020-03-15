@@ -385,7 +385,7 @@ h2.subhead {
 }
 section.content ul li {
   font-family: 'ars-maquette-web', sans-serif;
-  font-size: 16px;
+  font-size: 15px;
 }
 ul.subsection {
   display: block;
@@ -542,7 +542,8 @@ li#accurate-metadata,
 li#extensions,
 li#privacy,
 li.margin-top,
-li.margin-top-small {
+li.margin-top-small,
+p.apple {
   vertical-align: top;
   display: block;
   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Verdana, sans-serif;
@@ -560,7 +561,8 @@ li#accurate-metadata strong,
 li#extensions strong,
 li#privacy strong,
 li.margin-top strong,
-li.margin-top-small strong {
+li.margin-top-small strong,
+p.apple strong {
   padding-right: 15px;
   font-size: 20px;
   margin: 0;
@@ -569,7 +571,8 @@ li#accurate-metadata li,
 li#extensions li,
 li#privacy li,
 li.margin-top li,
-li.margin-top-small li {
+li.margin-top-small li,
+p.apple li {
   padding: 10px;
   margin-left: 64px;
 }
