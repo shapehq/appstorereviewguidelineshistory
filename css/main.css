@@ -36,6 +36,9 @@ a:hover {
 p {
   margin-bottom: 1.52em;
 }
+section.content ul {
+  margin: 1.4em 1.4em 1.4em 4em;
+}
 ol,
 ul {
   margin: 0 1.4em 1.4em 4em;
@@ -538,12 +541,12 @@ div#header-box .site-logo {
   list-style: none;
   margin: 0;
 }
+section.apple,
 li#accurate-metadata,
 li#extensions,
 li#privacy,
 li.margin-top,
-li.margin-top-small,
-p.apple {
+li.margin-top-small {
   vertical-align: top;
   display: block;
   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Verdana, sans-serif;
@@ -557,22 +560,37 @@ p.apple {
   list-style: none outside none;
   word-spacing: -1px;
 }
+section.apple strong,
 li#accurate-metadata strong,
 li#extensions strong,
 li#privacy strong,
 li.margin-top strong,
 li.margin-top-small strong,
-p.apple strong {
+section.apple h3,
+li#accurate-metadata h3,
+li#extensions h3,
+li#privacy h3,
+li.margin-top h3,
+li.margin-top-small h3 {
   padding-right: 15px;
   font-size: 20px;
   margin: 0;
 }
+section.apple p,
+li#accurate-metadata p,
+li#extensions p,
+li#privacy p,
+li.margin-top p,
+li.margin-top-small p {
+  margin-bottom: 1em;
+}
+section.apple li,
 li#accurate-metadata li,
 li#extensions li,
 li#privacy li,
 li.margin-top li,
-li.margin-top-small li,
-p.apple li {
+li.margin-top-small li {
   padding: 10px;
   margin-left: 64px;
+  margin-bottom: 0px;
 }
