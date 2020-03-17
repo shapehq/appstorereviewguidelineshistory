@@ -57,112 +57,105 @@
 <p>And remember that even after your app has been approved, you should update your app to ensure it remains functional and engaging to new and existing customers. Apps that stop working or offer a degraded experience may be removed from the App Store at any&nbsp;time.</p>
 </blockquote>
 <p>Yes Apple will finally start to remove abandoned apps from the App Store. This should be a win for&nbsp;everyone.</p>
-</section><p class="changes"><li id="accurate-metadata"><strong>2.3 Accurate Metadata</strong>
-	<ul class="no-bullet">
-		<li><strong>2.3.4</strong> Previews are a great way for customers to see what your app looks like and what it does. To ensure people understand what they’ll be getting with your app, previews may only use video screen captures of the app itself. <span class="insert">Stickers and iMessage extensions may show the user experience in the Messages app. </span>You can add narration and video or textual overlays to help explain anything that isn’t clear from the video alone.</li>
-		<li><strong>2.3.7</strong> Choose a unique app name, assign keywords that accurately describe your app, and don’t try to pack any of your metadata with trademarked terms, popular app names, or other irrelevant phrases just to game the system. <span class="insert">App names must be limited to 50 characters and should not include terms or descriptions that are not the name of the app. </span>Apple may modify inappropriate keywords at any time.</li>
-	</ul>
-</li>
+</section><p class="changes"><section class="apple">
+    <strong>2.3 Accurate Metadata</strong>
+    <ul class="no-bullet">
+        <li><strong>2.3.4</strong> Previews are a great way for customers to see what your app looks like and what it does. To ensure people understand what they’ll be getting with your app, previews may only use video screen captures of the app itself. <span class="insert">Stickers and iMessage extensions may show the user experience in the Messages app. </span>You can add narration and video or textual overlays to help explain anything that isn’t clear from the video alone.</li>
+        <li><strong>2.3.7</strong> Choose a unique app name, assign keywords that accurately describe your app, and don’t try to pack any of your metadata with trademarked terms, popular app names, or other irrelevant phrases just to game the system. <span class="insert">App names must be limited to 50 characters and should not include terms or descriptions that are not the name of the app. </span>Apple may modify inappropriate keywords at any time.</li>
+    </ul>
 
-<li id="software-requirements" class="margin-top"><strong>2.5 Software Requirements</strong>
-	<ul class="no-bullet">
-	<li><strong><span class="insert">2.5.11</span></strong><span class="insert"> SiriKit
-	</span><ul class="no-bullet margin-top-small">
-	<li><strong><span class="insert">(i)</span></strong><span class="insert"> Apps integrating SiriKit should only sign up for intents they can handle without the support of an additional app and that users would expect from the stated functionality. For example, if your app is a meal planning app, you should not incorporate an intent to start a workout, even if the app shares integration with a fitness app.</span></li>
-	<li><strong><span class="insert">(ii)</span></strong><span class="insert"> Ensure that the vocabulary and phrases in your plist pertains to your app and the SiriKit functionality of the intents the app has registered for.</span></li>
-	<li><strong><span class="insert">(iii)</span></strong><span class="insert"> Resolve the Siri request in the most direct way possible and do not insert ads or other marketing between the request and its fulfillment. Only present interstitial UI when required to complete the task (e.g. asking the user to specify a particular type of workout).</span></li>
-</ul>
-</li>
-</ul>
-</li>
+    <strong>2.5 Software Requirements</strong>
+    <ul class="no-bullet">
+        <li><strong><span class="insert">2.5.11</span></strong><span class="insert"> SiriKit
+	</span>
+            <ul class="no-bullet margin-top-small">
+                <li><strong><span class="insert">(i)</span></strong><span class="insert"> Apps integrating SiriKit should only sign up for intents they can handle without the support of an additional app and that users would expect from the stated functionality. For example, if your app is a meal planning app, you should not incorporate an intent to start a workout, even if the app shares integration with a fitness app.</span></li>
+                <li><strong><span class="insert">(ii)</span></strong><span class="insert"> Ensure that the vocabulary and phrases in your plist pertains to your app and the SiriKit functionality of the intents the app has registered for.</span></li>
+                <li><strong><span class="insert">(iii)</span></strong><span class="insert"> Resolve the Siri request in the most direct way possible and do not insert ads or other marketing between the request and its fulfillment. Only present interstitial UI when required to complete the task (e.g. asking the user to specify a particular type of workout).</span></li>
+            </ul>
+        </li>
+    </ul>
 
-<li id="payments" class="margin-top-small"><strong>3.1 Payments</strong>
-									<ul class="no-bullet margin-top-small">
-<li id="subscriptions"><strong>3.1.2<span class="insert"> Subscriptions:</span></strong> <span class="delete">Subscriptions: Auto</span><span class="insert">Apps may offer auto</span>-renewing <span class="delete">subscriptions should only be offered using </span>in-app purchase <span class="delete">and</span><span class="insert">subscriptions, regardless of category on the App Store. When incorporating auto-renewable subscriptions into your app, be sure to follow the guidelines below.
+    <strong>3.1 Payments</strong>
+    <ul class="no-bullet margin-top-small">
+        <li id="subscriptions"><strong>3.1.2<span class="insert"> Subscriptions:</span></strong> <span class="delete">Subscriptions: Auto</span><span class="insert">Apps may offer auto</span>-renewing <span class="delete">subscriptions should only be offered using </span>in-app purchase <span class="delete">and</span><span class="insert">subscriptions, regardless of category on the App Store. When incorporating auto-renewable subscriptions into your app, be sure to follow the guidelines below.
 										</span></li>
-																	<span class="delete">Note: We will update these guidelines in the coming weeks for the subscription changes launching this fall</span>
-										<li id="permissible-uses"><strong><span class="insert">3.1.2(a) Permissible uses:</span></strong><span class="insert"> If you offer an auto-renewing subscription, you must provide ongoing value to the customer. While the following list is not exhaustive, examples of appropriate subscriptions include: new game levels; episodic content; multi-player support; apps that offer consistent, substantive updates; access to large collections of, or continually updated, media content; software as a service (“SAAS”); and cloud support. In addition:
-											</span><ul class="disc margin-top-small">
-												<li><span class="insert">Subscriptions</span> may <span class="delete">only be used for periodicals</span><span class="insert">be offered alongside a la carte offerings</span> (e.g. <span class="delete">newspapers</span><span class="insert">you may offer a subscription to an entire library of films as well the purchase or rental of a single movie).</span></li>
-												<li><span class="insert">You may offer a single subscription that is shared across your own apps</span>, <span class="delete">magazines)</span><span class="insert">but these subscriptions may not extend to third party apps or services. Subscriptions must work on all of the user’s devices where the app is available. Learn more about </span><a href="https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/StoreKitGuide/Chapters/Subscriptions.html"><span class="insert">sharing a subscription across your apps</span></a><span class="insert">. </span></li>
-												<li><span class="insert">Apps must not force users to rate the app</span>, <span class="delete">business</span><span class="insert">review the app, download other</span> apps<span class="insert">, or other similar actions in order to access functionality, content, or use of the app.</span></li>
-												<li><span class="insert">As with all apps, those offering subscriptions should allow a user to get what they’ve paid for without performing additional tasks, such as posting on social media, uploading contacts, checking in to the app a certain number of times, etc. </span></li>
-												<li><span class="insert">Subscriptions may not include consumable credits, gems, in-game currencies, etc., even when combined with other offerings, but you may offer subscriptions that include access to discounted consumable goods</span> (e.g. <span class="delete">enterprise, productivity, professional creative, cloud storage), media apps (e.g. video, audio, voice, photo sharing), and other approved services (e.g. dating, dieting, weather</span><span class="insert">a platinum membership that exposes gem-packs for a reduced price</span>).<span class="delete"> These subscriptions must last a minimum of 7 days and be accessible from all of the user’s devices where the</span></li>
-												<li><span class="insert">If you are changing your existing</span> app <span class="delete">is available</span><span class="insert">to a subscription-based business model, you should not take away the primary functionality existing users have already paid for</span>. <span class="delete">You may offer subscriptions that are shared across</span><span class="insert">For example, let customers who have already purchased a “full game unlock” continue to access the full game after you introduce a subscription model for new customers.</span></li>
-											</ul>
-										</li>
+        <span class="delete">Note: We will update these guidelines in the coming weeks for the subscription changes launching this fall</span>
+        <li id="permissible-uses"><strong><span class="insert">3.1.2(a) Permissible uses:</span></strong><span class="insert"> If you offer an auto-renewing subscription, you must provide ongoing value to the customer. While the following list is not exhaustive, examples of appropriate subscriptions include: new game levels; episodic content; multi-player support; apps that offer consistent, substantive updates; access to large collections of, or continually updated, media content; software as a service (“SAAS”); and cloud support. In addition:
+											</span>
+            <ul class="disc margin-top-small">
+                <li><span class="insert">Subscriptions</span> may <span class="delete">only be used for periodicals</span><span class="insert">be offered alongside a la carte offerings</span> (e.g. <span class="delete">newspapers</span><span class="insert">you may offer a subscription to an entire library of films as well the purchase or rental of a single movie).</span></li>
+                <li><span class="insert">You may offer a single subscription that is shared across your own apps</span>, <span class="delete">magazines)</span><span class="insert">but these subscriptions may not extend to third party apps or services. Subscriptions must work on all of the user’s devices where the app is available. Learn more about </span><a href="https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/StoreKitGuide/Chapters/Subscriptions.html"><span class="insert">sharing a subscription across your apps</span></a><span class="insert">. </span></li>
+                <li><span class="insert">Apps must not force users to rate the app</span>, <span class="delete">business</span><span class="insert">review the app, download other</span> apps<span class="insert">, or other similar actions in order to access functionality, content, or use of the app.</span></li>
+                <li><span class="insert">As with all apps, those offering subscriptions should allow a user to get what they’ve paid for without performing additional tasks, such as posting on social media, uploading contacts, checking in to the app a certain number of times, etc. </span></li>
+                <li><span class="insert">Subscriptions may not include consumable credits, gems, in-game currencies, etc., even when combined with other offerings, but you may offer subscriptions that include access to discounted consumable goods</span> (e.g. <span class="delete">enterprise, productivity, professional creative, cloud storage), media apps (e.g. video, audio, voice, photo sharing), and other approved services (e.g. dating, dieting, weather</span><span class="insert">a platinum membership that exposes gem-packs for a reduced price</span>).<span class="delete"> These subscriptions must last a minimum of 7 days and be accessible from all of the user’s devices where the</span></li>
+                <li><span class="insert">If you are changing your existing</span> app <span class="delete">is available</span><span class="insert">to a subscription-based business model, you should not take away the primary functionality existing users have already paid for</span>. <span class="delete">You may offer subscriptions that are shared across</span><span class="insert">For example, let customers who have already purchased a “full game unlock” continue to access the full game after you introduce a subscription model for new customers.</span></li>
+            </ul>
+        </li>
 
-										<li id="upgrades-and-downgrades"><strong><span class="insert">3.1.2(b) Upgrades and Downgrades:</span></strong><span class="insert"> Users should have a seamless upgrade/downgrade experience and should not be able to inadvertently subscribe to multiple variations of the same thing. Review </span><a href="https://developer.apple.com/app-store/subscriptions/"><span class="insert">best practices</span></a><span class="insert"> on managing your subscription upgrade and downgrade options.</span></li>
-										<li><strong><span class="insert">3.1.2(c) Subscription Information:</span></strong><span class="insert"> Before asking a customer to subscribe, you should clearly describe what the user will get for the price. How many issues per month? How much cloud storage? What kind of access to your service? Also ensure you clearly communicate the requirements described in Schedule 2 of your agreement in </span><a href="http://www.apple.com/itunes/go/itunesconnect/contracts"><span class="insert">Agreements, Tax, and Banking</span></a>.
-										</li>
-										</ul>
-</li>
+        <li id="upgrades-and-downgrades"><strong><span class="insert">3.1.2(b) Upgrades and Downgrades:</span></strong><span class="insert"> Users should have a seamless upgrade/downgrade experience and should not be able to inadvertently subscribe to multiple variations of the same thing. Review </span><a href="https://developer.apple.com/app-store/subscriptions/"><span class="insert">best practices</span></a><span class="insert"> on managing your subscription upgrade and downgrade options.</span></li>
+        <li><strong><span class="insert">3.1.2(c) Subscription Information:</span></strong><span class="insert"> Before asking a customer to subscribe, you should clearly describe what the user will get for the price. How many issues per month? How much cloud storage? What kind of access to your service? Also ensure you clearly communicate the requirements described in Schedule 2 of your agreement in </span><a href="http://www.apple.com/itunes/go/itunesconnect/contracts"><span class="insert">Agreements, Tax, and Banking</span></a>.
+        </li>
+    </ul>
 
+    <strong>3.2 Other Business Model Issues</strong>
+    <ul class="no-bullet">
+        <li id="unacceptable"><strong>3.2.2 Unacceptable</strong>
+            <ul class="no-bullet">
+                <li><strong><span class="insert">(vi)</span></strong><span class="insert"> Apps should allow a user to get what they’ve paid for without performing additional tasks, such as posting on social media, uploading contacts, checking in to the app a certain number of times, etc. Apps should not force users to rate the app, review the app, download other apps, or take other similar actions in order to access functionality, content, or use of the app.</span></li>
+            </ul>
+        </li>
 
+        <h1 id="design">4. Design</h1>
+        <p class="section-intro">Apple customers place a high value on products that are simple, refined, innovative, and easy to use, and that’s what we want to see on the <span class="nowrap">App Store</span>. Coming up with a great design is up to you, but the following are minimum standards for approval to the <span class="nowrap">App Store</span>.<span class="insert"> And remember that even after your app has been approved, you should update your app to ensure it remains functional and engaging to new and existing customers. Apps that stop working or offer a degraded experience may be removed from the </span><span class="nowrap"><span class="insert">App Store</span></span><span class="insert"> at any time.</span></p>
 
+        <strong>4.4 Extensions</strong>
+        <ul class="no-bullet margin-top-small">
+            <li><strong>4.4.1</strong> Keyboard extensions have some additional rules.
+                <br>
+                <p>They must:</p>
+                <ul class="disc margin-top-small">
+                    <li>Provide keyboard input functionality (e.g. typed characters);</li>
+                    <li>Provide a method for progressing to the next keyboard;</li>
+                    <li>Remain functional without full network access;</li>
+                    <li>Provide Number and Decimal keyboard types as described in the <a href="https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/index.html#//apple_ref/doc/uid/TP40014214">App Extension Programming Guide</a>;</li>
+                    <span class="delete">Have a primary category of Utilities when the keyboard is the main point of the app; and</span>
+                    <li>Collect user activity only to enhance the functionality of the user’s keyboard extension on the iOS device.</li>
+                </ul>
 
-<li id="other-business-model-issues" class="margin-top"><strong>3.2 Other Business Model Issues</strong>
-	<ul class="no-bullet">
-	<li id="unacceptable"><strong>3.2.2 Unacceptable</strong>
-	<ul class="no-bullet">
-			<li><strong><span class="insert">(vi)</span></strong><span class="insert"> Apps should allow a user to get what they’ve paid for without performing additional tasks, such as posting on social media, uploading contacts, checking in to the app a certain number of times, etc. Apps should not force users to rate the app, review the app, download other apps, or take other similar actions in order to access functionality, content, or use of the app.</span></li>
-		</ul>
-	</li>
-</ul>
+                <p><span class="insert">They must not:</span></p>
+                <ul class="disc margin-top-small">
+                    <li><span class="insert">Include marketing, advertising, or in-app purchases;</span></li>
+                    <li><span class="insert">Launch other apps besides Settings; or</span></li>
+                    <li><span class="insert">Repurpose keyboard buttons for other behaviors (e.g. holding down the “return” key to launch the camera.</span></li>
+                </ul>
+            </li>
+            <li><strong>4.4.2</strong> Safari extensions must run on the current version of Safari on <span class="nowrap">OS X</span>. They may not interfere with System or Safari UI elements and must never include malicious or misleading content or code. Violating this rule will lead to removal from the Developer Program.<span class="insert"> Safari extensions should not claim access to more websites than strictly necessary to function.</span></li>
 
-<h1 id="design">4. Design</h1>
-<p class="section-intro">Apple customers place a high value on products that are simple, refined, innovative, and easy to use, and that’s what we want to see on the <span class="nowrap">App Store</span>. Coming up with a great design is up to you, but the following are minimum standards for approval to the <span class="nowrap">App Store</span>.<span class="insert"> And remember that even after your app has been approved, you should update your app to ensure it remains functional and engaging to new and existing customers. Apps that stop working or offer a degraded experience may be removed from the </span><span class="nowrap"><span class="insert">App Store</span></span><span class="insert"> at any time.</span></p>
+            <li><strong><span class="insert">4.4.3</span></strong><span class="insert"> Stickers
+											</span>
+                <p><span class="insert">Stickers are a great way to make Messages more dynamic and fun, letting people express themselves in clever, funny, meaningful ways. Whether your app contains a sticker extension or you’re creating free-standing sticker packs, its content shouldn’t offend users, create a negative experience, or violate the law.</span></p>
+                <ul class="no-bullet margin-top-small">
+                    <li><strong><span class="insert">(i)</span></strong><span class="insert"> In general, if it wouldn’t be suitable for the App Store, it doesn’t belong in a sticker.</span></li>
+                    <li><strong><span class="insert">(ii)</span></strong><span class="insert"> Consider regional sensitivities, and do not make your sticker pack available in a country where it could be poorly received or violate local law.</span></li>
+                    <li><strong><span class="insert">(iii)</span></strong><span class="insert"> If we don’t understand what your stickers mean, include a clear explanation in your review notes to avoid any delays in the review process.</span></li>
+                    <li><strong><span class="insert">(iv)</span></strong><span class="insert"> Ensure your stickers have relevance beyond your friends and family; they should not be specific to personal events, groups, or relationships.</span></li>
+                    <li><strong><span class="insert">(v)</span></strong><span class="insert"> You must have all the necessary copyright, trademark, publicity rights, and permissions for the content in your stickers, and shouldn’t submit anything unless you’re authorized to do so. Keep in mind that you must be able to provide verifiable documentation upon request. Apps with sticker content you don’t have rights to use will be removed from the App Store and repeat offenders will be removed from the Developer Program. If you believe your content has been infringed by another provider, </span><a href="https://www.apple.com/legal/internet-services/itunes/appstorenotices/#?lang=en"><span class="insert">submit a claim here</span></a><span class="insert">.</span></li>
+                </ul>
+            </li>
+        </ul>
 
+        <strong>5.1 Privacy</strong>
+            <ul class="no-bullet">
+                <li id="data-collection-and-storage" class="margin-top-small"><strong>5.1.1 Data Collection and Storage</strong>
+                    <ul class="no-bullet margin-top-small">
+                        <li><strong>(i)</strong> Apps that collect user <span class="insert">or usage </span>data must have a privacy policy and secure user consent for the collection. This includes—but isn’t limited to—apps that implement HealthKit or other health/medical technologies, HomeKit, Keyboard extensions, Apple Pay, <span class="insert">Stickers and iMessage extensions, </span>include a login, or access user data from the device (e.g. location, contacts, calendar, etc.).</li>
+                        <li><strong>(ii)</strong> If your app doesn’t include significant account-based features, let people use it without a log-in. Apps may not require users to enter personal information to function, except when directly relevant to the core functionality of the app or required by law.<span class="insert"> If your core app functionality is not related to a specific social network (e.g. Facebook, WeChat, Weibo, Twitter, etc.), you must provide access without a login or via another mechanism. Pulling basic profile information, sharing to the social network, or inviting friends to use the app are not considered core app functionality.</span></li>
+                        <li><strong>(iii)</strong> Developers that use their apps to surreptitiously discover passwords or other private data will be removed from the Developer Program.</li>
+                        <li><strong><span class="insert">(iv)</span></strong><span class="insert">SafariViewContoller must be used to visibly present information to users; the controller may not be hidden or obscured by other views or layers. Additionally, an app may not use SafariViewController to track users without their knowledge and consent.</span></li>
+                    </ul>
+                </li>
+            </ul>
 
-
-<li id="extensions"><strong>4.4 Extensions</strong>
-	<ul class="no-bullet margin-top-small">
-										<li><strong>4.4.1</strong> Keyboard extensions have some additional rules. <br>
-											<p>They must:</p>
-											<ul class="disc margin-top-small">
-												<li>Provide keyboard input functionality (e.g. typed characters);</li>
-												<li>Provide a method for progressing to the next keyboard;</li>
-												<li>Remain functional without full network access;</li>
-												<li>Provide Number and Decimal keyboard types as described in the <a href="https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/index.html#//apple_ref/doc/uid/TP40014214">App Extension Programming Guide</a>;</li>
-												<span class="delete">Have a primary category of Utilities when the keyboard is the main point of the app; and</span>
-												<li>Collect user activity only to enhance the functionality of the user’s keyboard extension on the iOS device.</li>
-											</ul>
-
-											<p><span class="insert">They must not:</span></p>
-											<ul class="disc margin-top-small">
-												<li><span class="insert">Include marketing, advertising, or in-app purchases;</span></li>
-												<li><span class="insert">Launch other apps besides Settings; or</span></li>
-												<li><span class="insert">Repurpose keyboard buttons for other behaviors (e.g. holding down the “return” key to launch the camera.</span></li>
-											</ul>
-										</li>
-										<li><strong>4.4.2</strong> Safari extensions must run on the current version of Safari on <span class="nowrap">OS X</span>. They may not interfere with System or Safari UI elements and must never include malicious or misleading content or code. Violating this rule will lead to removal from the Developer Program.<span class="insert"> Safari extensions should not claim access to more websites than strictly necessary to function.</span></li>
-
-										<li><strong><span class="insert">4.4.3</span></strong><span class="insert"> Stickers
-											</span><p><span class="insert">Stickers are a great way to make Messages more dynamic and fun, letting people express themselves in clever, funny, meaningful ways. Whether your app contains a sticker extension or you’re creating free-standing sticker packs, its content shouldn’t offend users, create a negative experience, or violate the law.</span></p>
-											<ul class="no-bullet margin-top-small">
-												<li><strong><span class="insert">(i)</span></strong><span class="insert"> In general, if it wouldn’t be suitable for the App Store, it doesn’t belong in a sticker.</span></li>
-												<li><strong><span class="insert">(ii)</span></strong><span class="insert"> Consider regional sensitivities, and do not make your sticker pack available in a country where it could be poorly received or violate local law.</span></li>
-												<li><strong><span class="insert">(iii)</span></strong><span class="insert"> If we don’t understand what your stickers mean, include a clear explanation in your review notes to avoid any delays in the review process.</span></li>
-												<li><strong><span class="insert">(iv)</span></strong><span class="insert"> Ensure your stickers have relevance beyond your friends and family; they should not be specific to personal events, groups, or relationships.</span></li>
-												<li><strong><span class="insert">(v)</span></strong><span class="insert"> You must have all the necessary copyright, trademark, publicity rights, and permissions for the content in your stickers, and shouldn’t submit anything unless you’re authorized to do so. Keep in mind that you must be able to provide verifiable documentation upon request. Apps with sticker content you don’t have rights to use will be removed from the App Store and repeat offenders will be removed from the Developer Program. If you believe your content has been infringed by another provider, </span><a href="https://www.apple.com/legal/internet-services/itunes/appstorenotices/#?lang=en"><span class="insert">submit a claim here</span></a><span class="insert">.</span></li>
-											</ul>
-										</li>
-									</ul>
-								</li>
-
-<li id="privacy"><strong>5.1 Privacy</strong>
-									<ul class="no-bullet">
-										<li id="data-collection-and-storage" class="margin-top-small"><strong>5.1.1 Data Collection and Storage</strong>
-											<ul class="no-bullet margin-top-small">
-												<li><strong>(i)</strong> Apps that collect user <span class="insert">or usage </span>data must have a privacy policy and secure user consent for the collection. This includes—but isn’t limited to—apps that implement HealthKit or other health/medical technologies, HomeKit, Keyboard extensions, Apple Pay, <span class="insert">Stickers and iMessage extensions, </span>include a login, or access user data from the device (e.g. location, contacts, calendar, etc.).</li>
-												<li><strong>(ii)</strong> If your app doesn’t include significant account-based features, let people use it without a log-in. Apps may not require users to enter personal information to function, except when directly relevant to the core functionality of the app or required by law.<span class="insert"> If your core app functionality is not related to a specific social network (e.g. Facebook, WeChat, Weibo, Twitter, etc.), you must provide access without a login or via another mechanism. Pulling basic profile information, sharing to the social network, or inviting friends to use the app are not considered core app functionality.</span></li>
-												<li><strong>(iii)</strong> Developers that use their apps to surreptitiously discover passwords or other private data will be removed from the Developer Program.</li>
-												<li><strong><span class="insert">(iv)</span></strong><span class="insert">SafariViewContoller must be used to visibly present information to users; the controller may not be hidden or obscured by other views or layers. Additionally, an app may not use SafariViewController to track users without their knowledge and consent.</span></li>
-											</ul>
-										</li>
-									</ul>
-								</li>
-
-
-
-</p></article></div></div></body></html>
+        </li>
+</section></p></article></div></div></body></html>

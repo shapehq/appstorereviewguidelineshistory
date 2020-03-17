@@ -122,6 +122,9 @@ hr {
   font-size: 15px;
   line-height: 22px;
 }
+.article.intro .content li {
+  line-height: 22px;
+}
 .article.intro .content .more {
   text-decoration: underline;
   font-weight: 700;
@@ -541,12 +544,7 @@ div#header-box .site-logo {
   list-style: none;
   margin: 0;
 }
-section.apple,
-li#accurate-metadata,
-li#extensions,
-li#privacy,
-li.margin-top,
-li.margin-top-small {
+section.apple {
   vertical-align: top;
   display: block;
   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Verdana, sans-serif;
@@ -561,35 +559,15 @@ li.margin-top-small {
   word-spacing: -1px;
 }
 section.apple strong,
-li#accurate-metadata strong,
-li#extensions strong,
-li#privacy strong,
-li.margin-top strong,
-li.margin-top-small strong,
-section.apple h3,
-li#accurate-metadata h3,
-li#extensions h3,
-li#privacy h3,
-li.margin-top h3,
-li.margin-top-small h3 {
+section.apple h3 {
   padding-right: 15px;
   font-size: 20px;
   margin: 0;
 }
-section.apple p,
-li#accurate-metadata p,
-li#extensions p,
-li#privacy p,
-li.margin-top p,
-li.margin-top-small p {
+section.apple p {
   margin-bottom: 1em;
 }
-section.apple li,
-li#accurate-metadata li,
-li#extensions li,
-li#privacy li,
-li.margin-top li,
-li.margin-top-small li {
+section.apple li {
   padding: 10px;
   margin-left: 64px;
   margin-bottom: 0px;
