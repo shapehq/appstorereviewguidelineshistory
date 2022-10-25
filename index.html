@@ -43,7 +43,57 @@
     <!--<a href="https://twitter.com/shapedk" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @shapedk</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>-->
 </div>
 
-<!--End mc_embed_signup--><!--include twitter.html--><p class="mail-form-policy">We will never spam you or give your email to others.</p></div><article class="article intro"><header><p class="date"><span>June 08, 2022</span></p><h2><a href="/articles/2022-06-06-updates-in-preparation-for-upcoming-os-releases/">Updates in preparation for upcoming OS releases</a></h2></header><section class="content"><p>Apple has updated their <a href="https://developer.apple.com/app-store/review/guidelines/">App Store Review Guidelines</a> in preparation of upcoming <span class="caps">OS</span> releases.
+<!--End mc_embed_signup--><!--include twitter.html--><p class="mail-form-policy">We will never spam you or give your email to others.</p></div><article class="article intro"><header><p class="date"><span>October 25, 2022</span></p><h2><a href="/articles/2022-10-25/">App Review clarification, new harmful content rule and info about Matter and selling NFTs</a></h2></header><section class="content"><p>Apple has updated their <a href="https://developer.apple.com/app-store/review/guidelines/">App Store Review Guidelines</a> expanding more on how to get through App Review, adding a new rule about harmful content, and adding new information about apps that support Matter, and about using in-app purchases to sell NFTs and services related to NFTs.
+<br><br></p>
+<p><a href="https://developer.apple.com/news/?id=xk8d7p8c">Apple’s full summary can be found here</a>.
+</br></br></p>
+<p>The complete set of changes can be seen&nbsp;below:</p>
+</section><p class="changes"><section class="apple">
+    <h3 data-sidenav id="before-you-submit">Before You Submit</h3>
+    <p>Make sure you:</p>
+    <ul class="disc top-level">
+        <li>Provide <span class="nowrap"><span class="insert">App Review</span></span><span class="insert"> with full access to your app. If your app includes account-based features, provide either </span>an active demo account <span class="delete">and login information</span><span class="insert">or fully-featured demo mode</span>, plus any other hardware or resources that might be needed to review your app (e.g. login credentials or a sample QR code)</li>
+    </ul>
+
+    <span id="1.1"></span><strong>1.1 Objectionable Content</strong>
+    <ul class="no-bullet margin-top-small">
+        <li id="1.1.4"><strong>1.1.4</strong> Overtly sexual or pornographic material, defined as “explicit descriptions or displays of sexual organs or activities intended to stimulate erotic rather than aesthetic or emotional feelings.” This includes “hookup” apps <span class="insert">and other apps </span>that may include pornography or be used to facilitate prostitution<span class="insert">, or human trafficking and exploitation</span>.</li>
+        <li id="1.1.7"><strong><span class="insert">1.1.7</span></strong><span class="insert"> Harmful concepts which capitalize or seek to profit on recent or current events, such as violent conflicts, terrorist attacks, and epidemics.</span></li>
+    </ul>
+
+    <span id="2.1"></span><strong>2.1 App Completeness</strong>
+    <p>Submissions to <span class="nowrap">App Review,</span> including apps you make available for pre-order, should be final versions with all necessary metadata and fully functional URLs included; placeholder text, empty websites, and other temporary content should be scrubbed before submission. Make sure your app has been tested on-device for bugs and stability before you submit it, and include demo account info (and turn on your back-end service!) if your app includes a login. If you <span class="insert">are unable to provide a demo account due to legal or security obligations, you may include a built-in demo mode in lieu of a demo account with prior approval by Apple. Ensure the demo mode exhibits your app’s full features and functionality. If you </span>offer in-app purchases in your app, make sure they are complete, up-to-date, and visible to the reviewer, or that you explain why not in your review notes. Please don’t treat <span class="nowrap">App Review</span> as a software testing service. We will reject incomplete app bundles and binaries that crash or exhibit obvious technical problems.</p>
+
+    <span id="2.5"></span><strong>2.5 Software Requirements</strong>
+    <ul class="no-bullet margin-top-small">
+        <li id="2.5.17"><strong><span class="insert">2.5.17</span></strong><span class="insert"> Apps that support Matter must use Apple’s support framework for Matter to initiate pairing. In addition, if you choose to use any Matter software component in your app other than the </span><span class="nowrap"><span class="insert">Matter SDK</span></span><span class="insert"> provided by Apple, the software component must be certified by the </span><a href="https://csa-iot.org"><span class="insert">Connectivity Standards Alliance</span><span class="loc-c"></span></a><span class="insert"> for the platform it runs on.</span></li>
+        <li id="2.5.18"><strong><span class="insert">2.5.18</span></strong><span class="insert"> Display advertising should be limited to your main app binary, and should not be included in extensions, App&nbsp;Clips, widgets, notifications, keyboards, watchOS apps, etc. Ads displayed in an app must be appropriate for the app’s age rating, allow the user to see all information used to target them for that ad (without requiring the user to leave the app), and may not engage in targeted or behavioral advertising based on sensitive user data such as health/medical data (e.g. from the HealthKit APIs), school and classroom data (e.g. from ClassKit), or from kids (e.g. from apps in the Kids&nbsp;Category), etc. Interstitial ads or ads that interrupt or block the user experience must clearly indicate that they are an ad, must not manipulate or trick users into tapping into them, and must provide easily accessible and visible close/skip buttons large enough for people to easily dismiss the ad.</span></li>
+    </ul>
+
+    <span id="3.1"></span><strong>3.1 Payments</strong>
+    <ul class="no-bullet margin-top-small">
+        <li data-sidenav="3.1.1 In-App Purchase" id="in-app-purchase"><span id="3.1.1"></span><strong>3.1.1 In-App Purchase:</strong>
+            <ul class="disc no-margin-top">
+                
+                <li><span class="insert">Apps may use in-app purchase to sell and sell services related to non-fungible tokens (NFTs), such as minting, listing, and transferring. Apps may allow users to view their own NFTs, provided that NFT ownership does not unlock features or functionality within the app. Apps may allow users to browse NFT collections owned by others, provided that the apps may not include buttons, external links, or other calls to action that direct customers to purchasing mechanisms other than in-app purchase.</span></li>
+            </ul>
+        </li>
+
+        <li data-sidenav="3.1.3(g) Advertising Management Apps" id="advertising-management-apps"><span id="3.1.3g"></span><strong><span class="insert">3.1.3(g) Advertising Management Apps:</span></strong><span class="insert"> Apps for the sole purpose of allowing advertisers (persons or companies that advertise a product, service, or event) to purchase and manage advertising campaigns across media types (television, outdoor, websites, apps, etc.) do not need to use in-app purchase. These apps are intended for campaign management purposes and do not display the advertisements themselves. Digital purchases for content that is experienced or consumed in an app, including buying advertisements to display in the same app (such as sales of “boosts” for posts in a social media app) must use in-app purchase.</span></li>
+        <li data-sidenav="3.1.5 Cryptocurrencies" id="cryptocurrencies"><span id="3.1.5"></span><strong>3.1.5 Cryptocurrencies:</strong>
+            <ul class="disc margin-top-small">
+                <li>(iii) Exchanges: Apps may facilitate transactions or transmissions of cryptocurrency on an approved exchange, provided they are offered <span class="delete">by the</span><span class="insert">only in countries or regions where the app has appropriate licensing and permissions to provide a cryptocurrency</span> exchange<span class="delete"> itself</span>.</li>
+            </ul>
+        </li>
+
+        <span class="delete">3.1.7 Advertising:</span><span class="delete"> Display advertising should be limited to your main app binary, and should not be included in extensions, </span><span class="delete">App Clips,</span><span class="delete"> widgets, notifications, keyboards, watchOS apps, etc. Ads displayed in an app must be appropriate for the app’s age rating, allow the user to see all information used to target them for that ad (without requiring the user to leave the app), and may not engage in targeted or behavioral advertising based on sensitive user data such as health/medical data (e.g. from the HealthKit APIs), school and classroom data (e.g. from ClassKit), or from kids (e.g. from apps in the Kids Category), etc. Interstitial ads or ads that interrupt or block the user experience must clearly indicate that they are an ad, must not manipulate or trick users into tapping into them, and must provide easily accessible and visible close/skip buttons large enough for people to easily dismiss the ad.</span>
+    </ul>
+
+    <span id="5.2"></span><strong>5.2 Intellectual Property</strong>
+    <ul class="no-bullet margin-top-small">
+        <li id="5.2.5"><strong>5.2.5 Apple Products:</strong> Don’t create an app that appears confusingly similar to an existing Apple product, interface (e.g. Finder), app (such as the <span class="nowrap">App Store,</span> <span class="nowrap">iTunes Store,</span> or Messages) or advertising theme. Apps and extensions, including third-party keyboards and Sticker packs, may not include Apple emoji. <span class="insert">Music from </span>iTunes <span class="delete">music</span><span class="insert">and </span><span class="nowrap"><span class="insert">Apple Music</span></span> previews may not be used for their entertainment value (e.g. as the background music to a photo collage or the soundtrack to a game) or in any other unauthorized manner. If <span class="insert">you provide music previews from iTunes or </span><span class="nowrap"><span class="insert">Apple Music,</span></span><span class="insert"> you must display a link to the corresponding music in iTunes or </span><span class="nowrap"><span class="insert">Apple Music.</span></span><span class="insert"> If </span>your app displays Activity rings, they should not visualize Move, Exercise, or Stand data in a way that resembles the Activity control. The <a href="https://developer.apple.com/design/human-interface-guidelines/patterns/workouts#activity-rings">Human Interface Guidelines<span class="loc-en-only"></span></a> have more information on how to use Activity rings. If your app displays Apple Weather data, it should follow the attribution requirements provided in the <a href="/weatherkit/get-started/index.html#attribution-requirements">WeatherKit documentation<span class="loc-apac"></span></a>.</li>
+    </ul>
+</section></p></article><article class="article intro"><header><p class="date"><span>June 08, 2022</span></p><h2><a href="/articles/2022-06-06-updates-in-preparation-for-upcoming-os-releases/">Updates in preparation for upcoming OS releases</a></h2></header><section class="content"><p>Apple has updated their <a href="https://developer.apple.com/app-store/review/guidelines/">App Store Review Guidelines</a> in preparation of upcoming <span class="caps">OS</span> releases.
 <br><br></p>
 <p><a href="https://developer.apple.com/news/?id=npbbcwsx">Apple’s own summary can be found here</a>.
 </br></br></p>
@@ -2330,19 +2380,4 @@ Demo videos of app functionality that is geo-locked or otherwise restricted are 
 			</li>
 
 		</ul>
-</p></article><article class="article intro"><header><p class="date"><span>September 16, 2015</span></p><h2><a href="/articles/2015-09-16-after-releasing-ios-9-apple-renames-passbook/">After releasing iOS 9 Apple just renames Passbook and make no other changes</a></h2></header><section class="content"><p>With the release of iOS 9 we expected Apple to make a bunch of changes to the <a href="https://developer.apple.com/app-store/review/guidelines/">App Store Review Guidelines</a> like <a href="http://www.appstorereviewguidelineshistory.com/articles/2014-09-03-previews-flagging-privacy-policy-extensions-homekit-healtkit-testflight/">they did last year</a>. But this time the only change is that Passbook has been renamed to&nbsp;Wallet.</p>
-</section><p class="changes"><h2 class="subhead" id="passbook"><span id="wallet">23. <span class="delete">Passbook</span><span class="insert">Wallet</span></span></h2>
-<ul class="subsection">
-	<li>
-		<h3>23.1</h3>
-		<p><span class="delete">Passbook Passes</span><span class="insert">Wallet passes</span> can be used to make or receive payments, transmit offers, or offer identification (such as movie tickets, airline tickets, coupons and reward offers). Other uses may result in the rejection of the App and the revocation of <span class="delete">Passbook</span><span class="insert">Wallet</span> credentials</p>
-	</li>
-	<li>
-		<h3>23.2</h3>
-		<p>Passes must include valid contact information from the issuer of the pass or the App will be rejected and <span class="delete">Passbook</span><span class="insert">Wallet</span> credentials may be revoked</p>
-	</li>
-	<li>
-		<h3>23.3</h3>
-		<p>Passes must be signed by the entity that will be distributing the pass under its own name, trademark, or brand or the App will be rejected and <span class="delete">Passbook</span><span class="insert">Wallet</span> credentials may be revoked</p>
-	</li>
-</ul></p></article></div></div></body></html>
+</p></article></div></div></body></html>
