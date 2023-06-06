@@ -1,0 +1,46 @@
+<section class="apple">
+    <li data-sidenav="2.5 Software Requirements" id="software-requirements"><span id="2.5"></span><strong>2.5 Software Requirements</strong>
+        <ul class="no-bullet margin-top-small">
+            
+            <li id="2.5.6"><strong>2.5.6</strong> Apps that browse the web must use the appropriate WebKit framework and WebKit <span class="delete">Javascript</span><span class="insert">JavaScript</span>.</li>
+            <li id="2.5.18"><strong>2.5.18</strong> Display advertising should be limited to your main app binary, and should not be included in extensions, App&nbsp;Clips, widgets, notifications, keyboards, watchOS apps, etc. Ads displayed in an app must be appropriate for the app’s age rating, allow the user to see all information used to target them for that ad (without requiring the user to leave the app), and may not engage in targeted or behavioral advertising based on sensitive user data such as health/medical data (e.g. from the HealthKit APIs), school and classroom data (e.g. from ClassKit), or from kids (e.g. from apps in the Kids&nbsp;Category), etc. Interstitial ads or ads that interrupt or block the user experience must clearly indicate that they are an ad, must not manipulate or trick users into tapping into them, and must provide easily accessible and visible close/skip buttons large enough for people to easily dismiss the ad.<span class="insert"> Apps that contain ads must also include the ability for users to report any inappropriate or age-inappropriate ads.</span></li>
+        </ul>
+    </li>
+    <li data-sidenav="3.1 Payments" id="payments"><span id="3.1"></span><strong>3.1 Payments</strong>
+        <ul class="no-bullet margin-top-small">
+            <li id="permissible-uses"><span id="3.1.2a"></span><strong>3.1.2(a) Permissible uses:</strong> If you offer an auto-renewing subscription, you must provide ongoing value to the customer, and the subscription period must last at least seven days and be available across all of the user’s devices. While the following list is not exhaustive, examples of appropriate subscriptions include: new game levels; episodic content; multiplayer support; apps that offer consistent, substantive updates; access to large collections of, or continually updated, media content; software as a service (“SAAS”); and cloud support. In addition:
+                <ul class="disc margin-top-small">
+                    <li>Cellular carrier apps may include auto-renewing music and video subscriptions <span class="delete">in pre-defined</span><span class="insert">when purchased in</span> bundles with <span class="insert">new </span>cellular data plans, with prior approval by Apple. Other auto-renewing subscriptions may also be included in <span class="delete">pre-defined </span>bundles <span class="delete">with</span><span class="insert">when purchased with new</span> cellular data plans, with prior approval by Apple, if the cellular carrier apps support in-app purchase for <span class="delete">new </span>users<span class="delete"> and the carrier provides a mechanism for customers to revert to in-app purchase upon termination of the customer’s bundled service</span>. Such subscriptions cannot include access to or discounts on consumable items<span class="insert">, and the subscriptions must terminate coincident with the cellular data plan</span>.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+
+    <li data-sidenav="4.1 Copycats" id="copycats"><span id="4.1"></span><strong>4.1 Copycats</strong><p>Come up with your own ideas. We know you have them, so make yours come to life. Don’t simply copy the latest popular app on the <span class="nowrap">App Store,</span> or make some minor changes to another app’s name or UI and pass it off as your own. In addition to risking an intellectual property infringement claim, it makes the <span class="nowrap">App Store</span> harder to navigate and just isn’t fair to your fellow developers<span class="insert">. Submitting apps which impersonate other apps or services is considered a violation of the Developer Code of Conduct and may result in removal from the Apple&nbsp;Developer Program</span>.</p></li>
+
+    <li data-sidenav="4.4 Extensions" id="extensions"><span id="4.4"></span><strong>4.4 Extensions</strong>
+        <p>Apps hosting or containing extensions must comply with the <a href="/library/archive/documentation/General/Conceptual/ExtensibilityPG/index.html#apple_ref/doc/uid/TP40014214/">App Extension Programming Guide<span class="loc-en-only"></span></a><span class="delete"> or the </span><span class="insert">, the </span><a href="/documentation/safariservices/safari_app_extensions/">Safari App Extensions <span class="delete">Guide</span><span class="insert">documentation</span><span class="loc-en-only"></span></a><span class="insert">, or the </span><a href="/documentation/safariservices/safari_web_extensions"><span class="insert">Safari Web Extensions documentation</span></a> and should include some functionality, such as help screens and settings interfaces where possible. You should clearly and accurately disclose what extensions are made available in the app’s marketing text, and the extensions may not include marketing, advertising, or in-app purchases.</p>
+        <ul class="no-bullet margin-top-small">
+            <li id="4.4.2"><strong>4.4.2</strong> Safari extensions must run on the current version of Safari on <span class="delete">macOS</span><span class="insert">the relevant Apple operating system</span>. They may not interfere with System or Safari UI elements and must never include malicious or misleading content or code. Violating this rule will lead to removal from the <span class="nowrap">Apple Developer</span> Program. Safari extensions should not claim access to more websites than strictly necessary to function.</li>
+        </ul>
+    </li>
+
+    <li data-sidenav="5.1 Privacy" id="privacy"><span id="5.1"></span><strong>5.1 Privacy</strong>
+        <ul class="no-bullet margin-top-small">
+            
+            <li data-sidenav="5.1.3 Health and Health Research" id="health-and-health-research"><span id="5.1.3"></span><strong>5.1.3 Health and Health Research</strong>
+                <p>Health, fitness, and medical data are especially sensitive and apps in this space have some additional rules to make sure customer privacy is protected:</p>
+                <ul class="no-bullet margin-top-small">
+                    <li><strong>(i)</strong> Apps may not use or disclose to third parties data gathered in the health, fitness, and medical research context—including from the Clinical Health Records API, HealthKit&nbsp;API, Motion and Fitness, <span class="delete">MovementDisorderAPIs</span><span class="insert">MovementDisorder APIs</span>, or health-related human subject research—for advertising, marketing, or other use-based data mining purposes other than improving health management, or for the purpose of health research, and then only with permission. Apps may, however, use a user’s health or fitness data to provide a benefit directly to that user (such as a reduced insurance premium), provided that the app is submitted by the entity providing the benefit, and the data is not shared with a third party. You must disclose the specific health data that you are collecting from the device.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li data-sidenav="5.2 Intellectual Property" id="intellectual-property"><span id="5.2"></span><strong>5.2 Intellectual Property</strong>
+        <ul class="no-bullet margin-top-small">
+            <li id="5.2.3"><strong>5.2.3 Audio/Video Downloading:</strong> Apps should not facilitate illegal file sharing or include the ability to save, convert, or download media from third-party sources (e.g. <span class="nowrap">Apple Music,</span> YouTube, SoundCloud, Vimeo, etc.) without explicit authorization from those sources. Streaming of audio/video content may also violate Terms of Use, so be sure to check before your app accesses those services. <span class="delete">Documentation</span><span class="insert">Authorization</span> must be provided upon request.</li>
+        </ul>
+    </li>
+
+    
+</section>

@@ -43,7 +43,57 @@
     <!--<a href="https://twitter.com/shapedk" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @shapedk</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>-->
 </div>
 
-<!--End mc_embed_signup--><!--include twitter.html--><p class="mail-form-policy">We will never spam you or give your email to others.</p></div><article class="article intro"><header><p class="date"><span>October 25, 2022</span></p><h2><a href="/articles/2022-10-25/">App Review clarification, new harmful content rule and info about Matter and selling NFTs</a></h2></header><section class="content"><p>Apple has updated their <a href="https://developer.apple.com/app-store/review/guidelines/">App Store Review Guidelines</a> expanding more on how to get through App Review, adding a new rule about harmful content, and adding new information about apps that support Matter, and about using in-app purchases to sell NFTs and services related to NFTs.
+<!--End mc_embed_signup--><!--include twitter.html--><p class="mail-form-policy">We will never spam you or give your email to others.</p></div><article class="article intro"><header><p class="date"><span>June 06, 2023</span></p><h2><a href="/articles/2023-06-06-ads-reporting-and-more/">Ads reporting requirements, consequences of impersonating apps, spelling error fixes and clarifications</a></h2></header><section class="content"><p>Apple has updated their <a href="https://developer.apple.com/app-store/review/guidelines/">App Store Review Guidelines</a> on reporting requirements for apps with ads, consequences of impersonating other apps, and more.
+<br><br></p>
+<p><a href="https://developer.apple.com/news/?id=3cwqvk28">Apple’s full summary can be found here</a>.
+</br></br></p>
+<p>The complete set of changes can be seen&nbsp;below:</p>
+</section><p class="changes"><section class="apple">
+    <li data-sidenav="2.5 Software Requirements" id="software-requirements"><span id="2.5"></span><strong>2.5 Software Requirements</strong>
+        <ul class="no-bullet margin-top-small">
+            
+            <li id="2.5.6"><strong>2.5.6</strong> Apps that browse the web must use the appropriate WebKit framework and WebKit <span class="delete">Javascript</span><span class="insert">JavaScript</span>.</li>
+            <li id="2.5.18"><strong>2.5.18</strong> Display advertising should be limited to your main app binary, and should not be included in extensions, App&nbsp;Clips, widgets, notifications, keyboards, watchOS apps, etc. Ads displayed in an app must be appropriate for the app’s age rating, allow the user to see all information used to target them for that ad (without requiring the user to leave the app), and may not engage in targeted or behavioral advertising based on sensitive user data such as health/medical data (e.g. from the HealthKit APIs), school and classroom data (e.g. from ClassKit), or from kids (e.g. from apps in the Kids&nbsp;Category), etc. Interstitial ads or ads that interrupt or block the user experience must clearly indicate that they are an ad, must not manipulate or trick users into tapping into them, and must provide easily accessible and visible close/skip buttons large enough for people to easily dismiss the ad.<span class="insert"> Apps that contain ads must also include the ability for users to report any inappropriate or age-inappropriate ads.</span></li>
+        </ul>
+    </li>
+    <li data-sidenav="3.1 Payments" id="payments"><span id="3.1"></span><strong>3.1 Payments</strong>
+        <ul class="no-bullet margin-top-small">
+            <li id="permissible-uses"><span id="3.1.2a"></span><strong>3.1.2(a) Permissible uses:</strong> If you offer an auto-renewing subscription, you must provide ongoing value to the customer, and the subscription period must last at least seven days and be available across all of the user’s devices. While the following list is not exhaustive, examples of appropriate subscriptions include: new game levels; episodic content; multiplayer support; apps that offer consistent, substantive updates; access to large collections of, or continually updated, media content; software as a service (“SAAS”); and cloud support. In addition:
+                <ul class="disc margin-top-small">
+                    <li>Cellular carrier apps may include auto-renewing music and video subscriptions <span class="delete">in pre-defined</span><span class="insert">when purchased in</span> bundles with <span class="insert">new </span>cellular data plans, with prior approval by Apple. Other auto-renewing subscriptions may also be included in <span class="delete">pre-defined </span>bundles <span class="delete">with</span><span class="insert">when purchased with new</span> cellular data plans, with prior approval by Apple, if the cellular carrier apps support in-app purchase for <span class="delete">new </span>users<span class="delete"> and the carrier provides a mechanism for customers to revert to in-app purchase upon termination of the customer’s bundled service</span>. Such subscriptions cannot include access to or discounts on consumable items<span class="insert">, and the subscriptions must terminate coincident with the cellular data plan</span>.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+
+    <li data-sidenav="4.1 Copycats" id="copycats"><span id="4.1"></span><strong>4.1 Copycats</strong><p>Come up with your own ideas. We know you have them, so make yours come to life. Don’t simply copy the latest popular app on the <span class="nowrap">App Store,</span> or make some minor changes to another app’s name or UI and pass it off as your own. In addition to risking an intellectual property infringement claim, it makes the <span class="nowrap">App Store</span> harder to navigate and just isn’t fair to your fellow developers<span class="insert">. Submitting apps which impersonate other apps or services is considered a violation of the Developer Code of Conduct and may result in removal from the Apple&nbsp;Developer Program</span>.</p></li>
+
+    <li data-sidenav="4.4 Extensions" id="extensions"><span id="4.4"></span><strong>4.4 Extensions</strong>
+        <p>Apps hosting or containing extensions must comply with the <a href="/library/archive/documentation/General/Conceptual/ExtensibilityPG/index.html#apple_ref/doc/uid/TP40014214/">App Extension Programming Guide<span class="loc-en-only"></span></a><span class="delete"> or the </span><span class="insert">, the </span><a href="/documentation/safariservices/safari_app_extensions/">Safari App Extensions <span class="delete">Guide</span><span class="insert">documentation</span><span class="loc-en-only"></span></a><span class="insert">, or the </span><a href="/documentation/safariservices/safari_web_extensions"><span class="insert">Safari Web Extensions documentation</span></a> and should include some functionality, such as help screens and settings interfaces where possible. You should clearly and accurately disclose what extensions are made available in the app’s marketing text, and the extensions may not include marketing, advertising, or in-app purchases.</p>
+        <ul class="no-bullet margin-top-small">
+            <li id="4.4.2"><strong>4.4.2</strong> Safari extensions must run on the current version of Safari on <span class="delete">macOS</span><span class="insert">the relevant Apple operating system</span>. They may not interfere with System or Safari UI elements and must never include malicious or misleading content or code. Violating this rule will lead to removal from the <span class="nowrap">Apple Developer</span> Program. Safari extensions should not claim access to more websites than strictly necessary to function.</li>
+        </ul>
+    </li>
+
+    <li data-sidenav="5.1 Privacy" id="privacy"><span id="5.1"></span><strong>5.1 Privacy</strong>
+        <ul class="no-bullet margin-top-small">
+            
+            <li data-sidenav="5.1.3 Health and Health Research" id="health-and-health-research"><span id="5.1.3"></span><strong>5.1.3 Health and Health Research</strong>
+                <p>Health, fitness, and medical data are especially sensitive and apps in this space have some additional rules to make sure customer privacy is protected:</p>
+                <ul class="no-bullet margin-top-small">
+                    <li><strong>(i)</strong> Apps may not use or disclose to third parties data gathered in the health, fitness, and medical research context—including from the Clinical Health Records API, HealthKit&nbsp;API, Motion and Fitness, <span class="delete">MovementDisorderAPIs</span><span class="insert">MovementDisorder APIs</span>, or health-related human subject research—for advertising, marketing, or other use-based data mining purposes other than improving health management, or for the purpose of health research, and then only with permission. Apps may, however, use a user’s health or fitness data to provide a benefit directly to that user (such as a reduced insurance premium), provided that the app is submitted by the entity providing the benefit, and the data is not shared with a third party. You must disclose the specific health data that you are collecting from the device.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li data-sidenav="5.2 Intellectual Property" id="intellectual-property"><span id="5.2"></span><strong>5.2 Intellectual Property</strong>
+        <ul class="no-bullet margin-top-small">
+            <li id="5.2.3"><strong>5.2.3 Audio/Video Downloading:</strong> Apps should not facilitate illegal file sharing or include the ability to save, convert, or download media from third-party sources (e.g. <span class="nowrap">Apple Music,</span> YouTube, SoundCloud, Vimeo, etc.) without explicit authorization from those sources. Streaming of audio/video content may also violate Terms of Use, so be sure to check before your app accesses those services. <span class="delete">Documentation</span><span class="insert">Authorization</span> must be provided upon request.</li>
+        </ul>
+    </li>
+
+    
+</section></p></article><article class="article intro"><header><p class="date"><span>October 25, 2022</span></p><h2><a href="/articles/2022-10-25/">App Review clarification, new harmful content rule and info about Matter and selling NFTs</a></h2></header><section class="content"><p>Apple has updated their <a href="https://developer.apple.com/app-store/review/guidelines/">App Store Review Guidelines</a> expanding more on how to get through App Review, adding a new rule about harmful content, and adding new information about apps that support Matter, and about using in-app purchases to sell NFTs and services related to NFTs.
 <br><br></p>
 <p><a href="https://developer.apple.com/news/?id=xk8d7p8c">Apple’s full summary can be found here</a>.
 </br></br></p>
@@ -2324,60 +2374,4 @@ Demo videos of app functionality that is geo-locked or otherwise restricted are 
 				<h3>30.3</h3>
 				<p><span class="insert">Apps using the Apple Music API may not require payment or otherwise monetize access to the Apple Music service (eg. in-app purchase, advertising, requesting user info)</span></p>
 			</li>
-		</ul></p></article><article class="article intro"><header><p class="date"><span>October 21, 2015</span></p><h2><a href="/articles/2015-10-21-guidelines-updated-for-tvos-apps/">Guidelines updated for tvOS apps</a></h2></header><section class="content"><p>Along with other releases (iOS 9.1, watchOS 2.0.1 and tvOS <span class="caps">GM</span>) Apple silently updated the <a href="https://developer.apple.com/app-store/review/guidelines/">App Store Review Guidelines</a> today. The changes listed below are mostly related to the release of the new Apple <span class="caps">TV</span>, but the new Apple Pencil also gets a mention.
-<br /><br /></p>
-<p>The new section 2.27 is rather confusing in its mention of the new Siri remote without explaining that the section only applies to tvOS apps (which we assume).
-<br /><br /></p>
-<p>The updated section 3.6 now says that tvOS top shelf extensions must only show content that adhere to the 4+ age rating. This basically means that we should be very careful with using any user generated content for the top&nbsp;shelf.</p>
-</section><p class="changes">
-		<h2 class="subhead" id="functionality">2. Functionality</h2>
-		<ul class="subsection">
-			<li>
-				<h3><span class="insert">2.27</span></h3>
-				<p><span class="insert">If your app’s core functionality doesn’t work with the Siri remote it will be rejected. The app may, however, provide enhanced functionality in connection with a game controller or other peripheral</span></p>
-			</li>
-		</ul>
-
-		<h2 class="subhead" id="metadata">3. Metadata (name, descriptions, ratings, rankings, etc.)</h2>
-		<ul class="subsection">
-			<li>
-				<h3>3.6</h3>
-				<p>Apps with App icons, screenshots, <span class="delete">and </span>previews<span class="insert">, and images displayed when an Apple TV app is in the top shelf of the Apple TV home screen</span> that do not adhere to the 4+ age rating will be rejected</p>
-			</li>
-
-			<li>
-				<h3>3.17</h3>
-				<p>App previews <span class="insert">and screenshots </span>that include content played or streamed via the app (e.g. <span class="delete">iTunes playlist</span><span class="insert">music</span>, <span class="delete">YouTube streaming </span>video<span class="insert">, and related cover art</span>) that is not licensed for use in the preview<span class="insert"> or screenshots</span> will be rejected</p>
-			</li>
-		</ul>
-
-
-
-		<h2 class="subhead" id="user-interface">10. User interface</h2>
-		<ul class="subsection">
-			<li>
-				<h3>10.1</h3>
-				<p>Apps must comply with all terms and conditions explained in the <span class="insert">applicable </span>Apple <span class="insert">Human Interface Guidelines:</span></p>
-
-<p>
-					<a href="https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/">iOS Human Interface Guidelines</a>
-
-
-									<a href="https://developer.apple.com/library/mac/documentation/UserExperience/Conceptual/OSXHIGuidelines/"><span class="insert">OS X Human Interface Guidelines</span></a>
-					<a href="https://developer.apple.com/tvos/human-interface-guidelines/"><span class="insert">Apple TV Human Interface Guidelines</span></a>
-					<a href="https://developer.apple.com/watch/human-interface-guidelines/"><span class="insert">Apple Watch Human Interface Guidelines</span></a>
-				</p>
-
-			</li>
-
-		</ul>
-
-		<h2 class="subhead" id="purchasing-currencies">11. Purchasing and currencies</h2>
-		<ul class="subsection">
-			<li>
-				<h3>11.8</h3>
-				<p>Apps that use IAP to purchase access to built-in capabilities provided by iOS, <span class="insert">watchOS, and tvOS, </span>such as the camera or the gyroscope, <span class="insert">or Apple-branded peripherals, such as Apple Pencil or Apple Keyboard, </span>will be rejected</p>
-			</li>
-
-		</ul>
-</p></article></div></div></body></html>
+		</ul></p></article></div></div></body></html>
