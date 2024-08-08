@@ -43,7 +43,95 @@
     <!--<a href="https://twitter.com/shapedk" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @shapedk</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>-->
 </div>
 
-<!--End mc_embed_signup--><!--include twitter.html--><p class="mail-form-policy">We will never spam you or give your email to others.</p></div><article class="article intro"><header><p class="date"><span>April 10, 2024</span></p><h2><a href="/articles/2024-04-10-music-streaming-services-and-retro-games-emulators/">Clarification on alternative music streaming app payment methods and allowing downloads in retro game console emulator apps</a></h2></header><section class="content"><p>Apple has updated their <a href="https://developer.apple.com/app-store/review/guidelines/">App Store Review Guidelines</a> to clarify how music streaming apps in particular can inform users about alternative payment methods and prices. The updated guidelines also now specify that it’s allowable for retro game console emulator apps to offer to download games.
+<!--End mc_embed_signup--><!--include twitter.html--><p class="mail-form-policy">We will never spam you or give your email to others.</p></div><article class="article intro"><header><p class="date"><span>August 08, 2024</span></p><h2><a href="/articles/2024-08-08-missing-in-app-items-and-pc-emulator-game-downloads/">Requiring review explanations for missing in-app items, allowing PC emulator apps to offer downloads, and more</a></h2></header><section class="content"><p>This entry covers 2 separate updates to <a href="https://developer.apple.com/app-store/review/guidelines/">Apple’s guidelines</a> made by Apple on June 10, 2024 and August 1,&nbsp;2024.</p>
+<p><br><br></p>
+<p>On June 10, among other things, changes were made to require developers to explain why configured in-app items cannot be found or reviewed in their apps, when they submit for review. Apple also made it clear that they will no longer reject apps that simulate multi-app widget experiences. (<a href="https://developer.apple.com/news/?id=og4hxxz8">Summary</a>)</p>
+<p><br><br></p>
+<p>On August 1, changes were made to support updated policies, upcoming features and to provide clarification, e.g. that <span class="caps">PC</span> emulator apps can offer to download games. (<a href="https://developer.apple.com/news/?id=ty0avr2s">Summary</a>)</p>
+<p><br><br></p>
+<p>The complete set of changes can be seen&nbsp;below:</p>
+</section><p class="changes"><section class="apple">
+
+    <h3 data-sidenav id="introduction">Introduction</h3>
+    <p>A few other points to keep in mind about distributing your app on our platforms:</p>
+    <ul class="disc top-level">
+        <li>Some features and technologies that are not generally available to developers may be offered as an <a href="https://developer.apple.com/documentation/bundleresources/entitlements">entitlement</a> for limited use cases. For example, we offer entitlements for CarPlay&nbsp;Audio, HyperVisor, and Privileged File Operations.<span class="delete"> Review our documentation on developer.apple.com to learn more about entitlements.</span></li>
+    </ul>
+
+    <h3 data-sidenav id="before-you-submit">Before You Submit</h3>
+
+    <p><strong><span class="delete">Development Guidelines</span><span class="insert">Developer Documentation</span></strong></p>
+    <ul class="links small">
+        <li class="document"><a href="https://developer.apple.com/documentation/swiftui"><span class="insert">SwiftUI</span><span class="loc-en-only"></span></a></li>
+        <li class="document"><a href="https://developer.apple.com/documentation/uikit">UIKit<span class="loc-cj"></span></a></li>
+        <li class="document"><a href="https://developer.apple.com/documentation/appkit">AppKit<span class="loc-en-only"></span></a></li>
+        <li class="document"><span class="delete">WatchKit</span><a href="https://developer.apple.com/app-extensions/"><span class="insert">App extensions</span></a></li>
+        <li class="document"><a href="https://developer.apple.com/documentation/foundation/optimizing_your_app_s_data_for_icloud_backup/"><span class="insert">Optimizing Your App’s Data for iCloud Backup</span><span class="loc-en-only"></span></a></li>
+        <li class="document"><span class="delete">App extensions</span>
+        <span class="delete">iOS Data Storage Guidelines</span>
+        <a href="https://developer.apple.com/documentation/foundation/file_system/about_apple_file_system">Apple File System<span class="loc-en-only"></span></a></li>
+        <li class="document"><a href="https://developer.apple.com/help/app-store-connect/">App&nbsp;Store&nbsp;Connect Help</a></li>
+        <li class="document"><a href="https://developer.apple.com/help/account/">Developer Account Help</a></li>
+    </ul>
+
+    <h3 data-nr data-sidenav id="performance"><span id="2"></span>2. Performance</h3>
+    <ul class="no-bullet">
+        <li data-nr data-sidenav="2.1 App Completeness" id="app-completeness"><span id="2.1"></span><strong>2.1 App Completeness</strong>
+            <ul class="no-bullet margin-top-small">
+                <li data-nr><strong><span class="insert">(a)</span></strong><span class="custom-tooltip-icon"><img src="https://developer.apple.com/app-store/review/images/key-icon.svg" height="17" class="asr-nr" alt="ASR & NR" /></span> Submissions to App&nbsp;Review, including apps you make available for pre-order, should be final versions with all necessary metadata and fully functional URLs included; placeholder text, empty websites, and other temporary content should be scrubbed before submission. Make sure your app has been tested on-device for bugs and stability before you submit it, and include demo account info (and turn on your back-end service!) if your app includes a login. If you are unable to provide a demo account due to legal or security obligations, you may include a built-in demo mode in lieu of a demo account with prior approval by Apple. Ensure the demo mode exhibits your app’s full features and functionality. <span class="insert">We will reject incomplete app bundles and binaries that crash or exhibit obvious technical problems.</span></li>
+                <li><strong><span class="insert">(b)</span></strong> If you offer in-app purchases in your app, make sure they are complete, up-to-date, <span class="delete">and </span>visible to the reviewer<span class="insert"> and functional. If any configured in-app purchase items cannot be found or reviewed in your app</span>, <span class="delete">or that you </span>explain <span class="delete">why not</span><span class="insert">the reason</span> in your review notes.<span class="delete"> Please don’t treat App&nbsp;Review as a software testing service. We will reject incomplete app bundles and binaries that crash or exhibit obvious technical problems.</span>
+        </li>
+            </ul>
+        </li>
+
+        <li data-nr data-sidenav="2.3 Accurate Metadata" id="accurate-metadata"><span id="2.3"></span><strong>2.3<span class="custom-tooltip-icon"><img src="https://developer.apple.com/app-store/review/images/key-icon.svg" height="17" class="asr-nr" alt="ASR & NR" /></span><span> Accurate Metadata</span></strong>
+            <p data-nr>Customers should know what they’re getting when they download or buy your app, so make sure all your app metadata, including privacy information, your app description, screenshots, and previews accurately reflect the app’s core experience and remember to keep them up-to-date with new versions.</p>
+            <ul class="no-bullet margin-top-small">
+                
+                
+                
+                <li id="2.3.10"><strong>2.3.10</strong> Make sure your app is focused on the <span class="delete">iOS</span><span class="insert">experience of the Apple platforms it supports</span>, <span class="delete">iPadOS, macOS, tvOS or watchOS experience, </span>and don’t include names, icons, or imagery of other mobile platforms or alternative app marketplaces in your app or metadata, unless there is specific, approved interactive functionality. Make sure your app metadata is focused on the app itself and its experience. Don’t include irrelevant information.</li>
+            </ul>
+        </li>
+        <li data-nr data-sidenav="2.4 Hardware Compatibility" id="hardware-compatibility"><span id="2.4"></span><strong>2.4 Hardware Compatibility</strong>
+            <ul class="no-bullet margin-top-small">
+                <li id="2.4.1"><strong>2.4.1</strong> To ensure people get the most out of your app, iPhone apps should run on iPad whenever possible. We encourage you to consider building <span class="delete">universal </span>apps so customers can use them on <a href="https://developer.apple.com/documentation/xcode/configuring-a-multiplatform-app-target">all of their devices<span class="delete">. Learn more about </span><span class="delete">Universal apps</span></a>.</li>
+            </ul>
+        </li>
+        <li data-nr data-sidenav="2.5 Software Requirements" id="software-requirements"><span id="2.5"></span><strong>2.5 Software Requirements</strong>
+            <ul class="no-bullet margin-top-small">
+                <li id="2.5.8"><strong>2.5.8</strong> Apps that create alternate desktop/home screen environments<span class="delete"> or simulate multi-app widget experiences</span> will be rejected.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3 data-sidenav id="business"><span id="3"></span>3. Business</h3>
+    <ul class="no-bullet">
+        <li data-sidenav="3.1 Payments" id="payments"><span id="3.1"></span><strong>3.1 Payments</strong>
+            <ul class="no-bullet margin-top-small">
+                <li data-sidenav="3.1.1 In-App Purchase" id="in-app-purchase"><span id="3.1.1"></span><strong>3.1.1 In-App Purchase:</strong>
+                    <ul class="disc margin-top-small">
+                        <li>Non-subscription apps may offer a free time-based trial period before presenting a full unlock option by setting up a Non-Consumable IAP item at Price Tier 0 that follows the naming convention: “XX-day Trial.” Prior to the start of the trial, your app must clearly identify its duration, the content or services that will no longer be accessible when the trial ends, and any downstream charges the user would need to pay for full functionality. Learn more about managing content access and the duration of the trial period using <a href="https://developer.apple.com/documentation/storekit/original_api_for_in-app_purchase/choosing_a_receipt_validation_technique">Receipts<span class="loc-en-only"></span></a> and <span class="delete">Device Check</span><a href="https://developer.apple.com/documentation/devicecheck"><span class="insert">DeviceCheck</span><span class="loc-en-only"></span></a>.</li>
+                    </ul>
+                </li>
+                
+                
+                
+            </ul>
+        </li>
+    </ul>
+
+    <h3 data-nr data-sidenav id="design"><span id="4"></span>4. Design</h3>
+    <ul class="no-bullet">
+        <li><span id="4.6"></span><strong>4.6<span class="delete"> Alternate App Icons</span></strong>
+            <span class="delete">Apps may display customized icons, for example, to reflect a sports team preference, provided that each change is initiated by the user and the app includes settings to revert to the original icon</span><span class="insert"> Intentionally omitted</span>.<span class="delete"> All icon variants must relate to the content of the app and changes should be consistent across all system assets, so that the icons displayed in Settings, Notifications, etc. match the new springboard icon.</span>
+        </li>
+        <li data-nr data-sidenav="4.7 Mini apps, mini games, streaming games, chatbots, plug-ins, and game emulators" id="third-party-software"><span id="4.7"></span> <strong>4.7<span class="custom-tooltip-icon"><img src="https://developer.apple.com/app-store/review/images/key-icon.svg" height="17" class="asr-nr" alt="ASR & NR" /></span> Mini apps, mini games, streaming games, chatbots, plug-ins, and game emulators</strong>
+            <p data-nr>Apps may offer certain software that is not embedded in the binary, specifically HTML5 mini apps and mini games, streaming games, chatbots, and plug-ins. Additionally, retro game console <span class="insert">and PC </span>emulator apps can offer to download games. You are responsible for all such software offered in your app, including ensuring that such software complies with these Guidelines and all applicable laws. Software that does not comply with one or more guidelines will lead to the rejection of your app. You must also ensure that the software adheres to the additional rules that follow in 4.7.1 <span class="delete">and</span><span class="insert">through</span> 4.7.5. These additional rules are important to preserve the experience that App&nbsp;Store customers expect, and to help ensure user safety.</p>
+        </li>
+    </ul>
+
+</section></p></article><article class="article intro"><header><p class="date"><span>April 10, 2024</span></p><h2><a href="/articles/2024-04-10-music-streaming-services-and-retro-games-emulators/">Clarification on alternative music streaming app payment methods and allowing downloads in retro game console emulator apps</a></h2></header><section class="content"><p>Apple has updated their <a href="https://developer.apple.com/app-store/review/guidelines/">App Store Review Guidelines</a> to clarify how music streaming apps in particular can inform users about alternative payment methods and prices. The updated guidelines also now specify that it’s allowable for retro game console emulator apps to offer to download games.
 <br><br></p>
 <p><a href="https://developer.apple.com/news/?id=0kjli9o1">Apple’s own summary can be found here</a>.
 </br></br></p>
@@ -2298,348 +2386,4 @@ Demo videos of app functionality that is geo-locked or otherwise restricted are 
         </ul>
 </section>
 
-</p></article><article class="article intro"><header><p class="date"><span>June 08, 2017</span></p><h2><a href="/articles/2017-06-08-new-rules-following-wwdc-2017/">New rules following WWDC 2017</a></h2></header><section class="content"><p>After a densely packed <span class="caps">WWDC</span> keynote with many new features for developers and user, Apple also published a new version of the <a href="https://developer.apple.com/app-store/review/guidelines/">App Store Review Guidelines</a>. There are many changes ranging from minor rephrasings to totally new&nbsp;rules.</p>
-<p>A few notable changes and additions that caught my&nbsp;mind:</p>
-<ul>
-<li>New note on how to respond to App Store customer&nbsp;reviews.</li>
-<li>Note saying developers must now use the provided <span class="caps">API</span> to prompt users for reviews rather than link to the App Store page from a custom&nbsp;prompt.</li>
-<li>App names can now only be 30 characters long. Previosly this limit was 50 characters. There is a new subtitle feature in iTunes Connect that we should use instead of long descriptive&nbsp;titles.</li>
-<li>Apps that provide a programming interface may now (in some cases) download and run code from the&nbsp;Internet.</li>
-<li>Clarifications regarding <span class="caps">IAP</span> and other purchasing methods for “reader”&nbsp;apps.</li>
-<li>Binary options trading apps are no longer&nbsp;allowed.</li>
-<li>Apps created from a commercialized template or app generation service will be&nbsp;rejected.</li>
-<li>Your app description should let people know what types of access (e.g. location, contacts, calendar, etc.) are requested by your app, and what aspects of the app won’t work if the user doesn’t grant&nbsp;permission.</li>
-</ul>
-<p>All the changes are listed below. Additions have green highlight and deletions have red highlight and&nbsp;strikeout.</p>
-</section><p class="changes"><section class="apple">
-
-    <strong>Introduction</strong>
-        <ul>
-
-
-            <li><span class="insert">The App Store is a great way to reach hundreds of millions of people around the world.  If you build an app that you just want to show to family and friends, the App Store isn’t the best way to do that.  Consider Ad Hoc distribution or the Enterprise Program.  If you’re just getting started, learn more about the <a
-                    href="/programs/">Apple Developer Program</a>.</span></li>
-
-
-            <li><span class="delete">If your app looks like it was cobbled together in a few days, or you're trying to get your first practice app into the store to impress your friends, please brace yourself for rejection. We have lots of serious developers who don't want their quality apps to be surrounded by amateur hour.
-			We will reject apps for any content or behavior that we believe is over the line. What line, you ask? Well, as a Supreme Court Justice once said, "I'll know it when I see it". And we think that you will also know it when you cross it.
-			If you attempt to cheat the system (for example, by trying to trick the review process, steal user data, copy another developer's work, or manipulate ratings) your apps will be removed from the store and you will be expelled from the Developer Program.</span>
-            </li>
-
-
-        </ul>
-
-    <strong>Before you submit</strong>
-
-        <p>To help your app approval go as smoothly as possible, review the common missteps listed below that can slow
-            down
-            the review process or trigger a rejection. This doesn’t replace the guidelines or guarantee approval, but
-            making
-            sure you can check every item on the list is a good start.<span class="insert"> If your app no longer functions as intended or you’re no longer actively supporting it, it will be removed from the App Store.  </span><a
-                    href="https://developer.apple.com/support/app-store-improvements/"><span class="insert">Learn More about App Store Improvements</span></a><span
-                    class="insert">.</span></p>
-
-
-
-    <strong>1.1 Objectionable Content</strong>
-
-        <ul class="no-bullet">
-
-
-            <li><strong><span class="insert">1.1.7</span></strong><span class="insert"> App Store Reviews:
-			</span>
-                <ul>
-                    <li><span class="insert">App Store customer reviews can be an integral part of the app experience, so you should treat customers with respect when responding to their comments.  Keep your responses targeted to the user’s comments and do not include personal information, spam, or marketing in your response. </span>
-                    </li>
-                    <li><span class="insert">Use the provided API to prompt users to review your app; this functionality allows customers to provide an App Store rating and review without the inconvenience of leaving your app, and we will disallow custom review prompts.
-
-			</span></li>
-
-                </ul>
-        </ul>
-
-
-    <strong>1.4 Physical Harm</strong>
-        <p>If your app behaves in a way that risks physical harm, we may reject it. For example:</p>
-        <ul class="no-bullet">
-            <li><strong>1.4.1</strong> Medical apps that could provide inaccurate data or information, or that could be
-                used for diagnosing or treating patients may be reviewed with greater scrutiny. <span class="delete">If your medical app has received regulatory clearance, please submit a link to that documentation with your app.</span>
-
-                <ul>
-                    <li><span class="insert">Apps must clearly disclose data and methodology to support accuracy claims relating to health measurements, and if the level of accuracy or methodology cannot be validated, we will reject your app.  For example, apps that claim to take x-rays, measure blood pressure, body temperature, blood glucose levels, or blood oxygen levels using only the sensors on the device are not permitted.</span>
-                    </li>
-                    <li><span class="insert">Apps should remind users to check with a doctor in addition to using the app and before making medical decisions. </span>
-                    </li>
-
-                </ul>
-                If your medical app has received regulatory clearance, please submit a link to that documentation with
-                your app.
-            </li>
-
-            <li><strong>1.4.3</strong> Apps <span class="delete">should not</span><span class="insert">that</span>
-                encourage <span class="insert">consumption of tobacco products, </span>illegal<span class="delete"> or excessive consumption of drugs or alcohol; or encourage minors to consume</span>
-                drugs, <span class="insert">or excessive amounts of </span>alcohol<span class="insert"> are not permitted on the App Store. Apps that encourage minors to consume any of these substances will be rejected. Facilitating the sale of marijuana</span>,
-                <span class="delete">or </span>tobacco<span
-                        class="delete">; and facilitating the sale of marijuana</span><span class="insert">, or controlled substances (except for licensed pharmacies)</span>
-                isn’t allowed.
-            </li>
-            <li><strong>1.4.5</strong> Apps should not urge customers to use their devices in a way that contradicts
-                safety documentation for Apple hardware, risking damage to the device or physical harm to people. For
-                example, apps should not encourage placing the device under a mattress or pillow while charging<span
-                        class="insert"> or perform excessive write cycles to the solid state drive</span>. Review <a
-                        href="https://support.apple.com">device documentation</a>.
-            </li>
-        </ul>
-
-
-    <strong>2.3 Accurate Metadata</strong>
-
-        <ul class="no-bullet">
-            <li><strong>2.3.2</strong> If your app includes in-app purchases, make sure your app description,
-                screenshots, and previews clearly indicate whether any featured items, levels, subscriptions, etc.
-                require additional purchases.<span class="insert"> If you decide to promote in-app purchases on the App Store, ensure that the IAP Display Name and Description are written for a public audience and that your app properly handles the Purchase Intent API so that customers can seamlessly complete the purchase when your app launches.</span>
-            </li>
-            <li><strong>2.3.3</strong> Screenshots should show the app in use, and not merely the title art, log-in
-                page, or splash screen.<span class="insert"> They may also include text overlays and show extended functionality on device, such as Touch Bar.</span>
-            </li>
-            <li><strong>2.3.7</strong> Choose a unique app name, assign keywords that accurately describe your app, and
-                don’t try to pack any of your metadata with trademarked terms, popular app names, or other irrelevant
-                phrases just to game the system. App names must be limited to <span class="delete">50</span><span
-                        class="insert">30</span> characters and should not include <span class="insert">prices, </span>terms<span
-                        class="insert">,</span> or descriptions that are not the name of the app.<span class="insert">  App subtitles are a great way to provide additional context for your app; they must follow our standard metadata rules and should not include inappropriate content, reference other apps, or make unverifiable product claims.</span>
-                Apple may modify inappropriate keywords at any time.
-            </li>
-            <li><strong>2.3.8</strong> Metadata should be appropriate for all audiences, so make sure your<span
-                    class="insert"> app and in-app purchase</span> icons, screenshots, and previews adhere to a 4+ age
-                rating even if your app is rated higher. For example, if your app is a game that includes violence,
-                select images that don’t depict a gruesome death or a gun pointed at a specific character. <span
-                        class="insert">Use of terms like “For Kids” and “For Children” in app names is reserved for the Kids Category. </span>Remember
-                to ensure your metadata, including app name and icons (small, large, Apple Watch app, etc.), are similar
-                to avoid creating confusion.
-            </li>
-
-        </ul>
-
-    <strong>2.5 Software Requirements</strong>
-        <ul class="no-bullet margin-top-small">
-            <li><strong>2.5.1</strong> Apps may only use public APIs<span class="insert"> and must run on the currently shipping OS</span>.
-                Learn more about <a href="https://developer.apple.com/reference/">public APIs</a>.<span class="insert"> Keep your apps up-to-date and make sure you phase out any deprecated features, frameworks or technologies that will no longer be supported in future versions of an OS. </span>
-            </li>
-            <li><strong>2.5.2</strong> Apps should be self-contained in their bundles, and may not read or write data
-                outside the designated container area, nor may they download, install, or execute code, including
-                other<span class="delete"> iOS, watchOS, macOS, or tvOS</span> apps.<span class="insert"> Apps designed to teach, develop, or test executable code may, in limited circumstances, download code provided that such code is not used for other purposes.  Such apps must make the source code provided by the Application completely viewable and editable by the user.</span>
-            </li>
-
-            <li><strong>2.5.9</strong> Apps that alter <span class="insert">or disable </span>the functions of standard
-                switches, such as the Volume Up/Down and Ring/Silent switches, or other native user interface elements
-                or behaviors will be rejected.<span class="insert"> For example, apps should not block links out to other apps or other features that users would expect to work a certain way.  Learn more about proper handling of </span><a
-                        href="/design/"><span class="insert">links</span></a><span class="insert">. </span></li>
-
-            <li><strong>2.5.11</strong> SiriKit
-                <ul class="no-bullet margin-top-small">
-                    <li><strong>(ii)</strong> Ensure that the vocabulary and phrases in your plist pertains to your app
-                        and the SiriKit functionality of the intents the app has registered for<span class="insert">.  Aliases must relate directly to your app or company name and should not be generic terms or include third party app names or services</span>.
-                    </li>
-                </ul>
-            </li>
-
-            <li><strong><span class="insert">2.5.12 </span></strong><span class="insert"> Apps using CallKit or including an SMS Fraud Extension should only block phone numbers that are confirmed spam.  Apps that include call-, SMS-, and MMS- blocking functionality or spam identification must clearly identify these features in their marketing text and explain the criteria for their blocked and spam lists.  You may not use the data accessed via these tools for any purpose not directly related to operating or improving your app or extension (e.g. you may not use, share, or sell it for tracking purposes, creating user profiles, etc.)</span>
-            </li>
-        </ul>
-
-
-    <strong>3.1 Payments</strong>
-        <ul class="no-bullet margin-top-small">
-            <li id="in-app-purchase"><strong>3.1.1 In-App Purchase:</strong>
-                <ul class="disc no-margin-top">
-                    <li>If you want to unlock features or functionality within your app, (by way of example:
-                        subscriptions, in-game currencies, game levels, access to premium content, or unlocking
-                        a full version), you must use in-app purchase. Apps may <span class="insert">use in-app purchase currencies to enable customers to “tip” digital content providers in the app.  Apps may </span>not
-                        include buttons, external links, or other calls to action that direct customers to
-                        purchasing mechanisms other than IAP.
-                    </li>
-                    <li>Any credits or in-game currencies purchased via IAP <span class="delete">must be consumed within the app and </span>may
-                        not expire, and you should make sure you have a restore mechanism for any restorable
-                        in-app purchases.
-                    </li>
-                </ul>
-            </li>
-
-            <li id="permissible-uses"><strong>3.1.2(a) Permissible uses:</strong> If you offer an auto-renewing
-                subscription, you must provide ongoing value to the customer<span class="insert">, and the subscription period must last at least seven days and be available across all of the user’s devices</span>.
-            </li>
-
-            <li id="content-based-reader-apps"><strong>3.1.3 <span class="delete">Content-based </span>“Reader”
-                Apps:</strong> Apps may allow a user to access previously purchased content or content
-                subscriptions (specifically: magazines, newspapers, books, audio, music, video, access to
-                professional databases, VoIP, cloud storage, and approved services such as educational apps that
-                manage student grades and schedules), <span class="insert">as well as consumable items in multi-platform games, </span>provided
-                <span class="delete">the app does</span><span class="insert">that you agree</span> not <span
-                        class="delete">direct</span><span
-                        class="insert">to directly or indirectly target iOS</span> users to <span
-                        class="insert">use </span>a purchasing <span class="delete">mechanism</span><span
-                        class="insert">method</span> other than<span class="insert"> IAP, and your general communications about other purchasing methods are not designed to discourage use of</span>
-                IAP.
-            </li>
-
-            </li>
-        </ul>
-
-
-    <strong>3.2 Other Business Model Issues</strong>
-
-        <ul class="no-bullet">
-            <li id="acceptable" class="margin-top-small"><strong>3.2.1 Acceptable</strong>
-                <ul class="no-bullet margin-top-small">
-
-                    <li><strong>(vi)</strong> Approved nonprofits may fundraise directly within their own apps
-                        <span class="delete">using</span><span class="insert">or third-party apps, provided those fundraising campaigns adhere to all App Review Guidelines and offer</span>
-                        Apple Pay<span class="delete">, provided those fundraising campaigns adhere to all App Review Guidelines</span><span
-                                class="insert"> support</span>. These apps must disclose how the funds will be
-                        used, abide by all required local and federal laws, and <span class="delete">make</span><span
-                                class="insert">ensure</span> appropriate tax receipts <span
-                                class="insert">are </span>available to donors. <span class="insert">Additional information shall be provided to App Review upon request. </span>Nonprofit
-                        platforms that connect donors to other nonprofits must ensure that every nonprofit
-                        listed in the app has also gone through the nonprofit approval process. Learn more about
-                        becoming an <a href="https://developer.apple.com/support/apple-pay-nonprofits/">approved
-                            nonprofit</a>.
-                    </li>
-                </ul>
-            </li>
-            <li id="unacceptable" class="margin-top"><strong>3.2.2 Unacceptable</strong>
-                <ul class="no-bullet margin-top-small">
-                    <li><strong>(iv)</strong> Unless you are an approved nonprofit<span class="insert"> or otherwise permitted under Section 3.2.1 (vi) above</span>,
-                        collecting funds within the app for charities and fundraisers. Apps that seek to raise
-                        money for such causes must be free on the <span class="nowrap">App Store</span> and may
-                        only collect funds outside of the app, such as via Safari or SMS.
-                    </li>
-                    <li><strong>(vi)</strong> Apps should allow a user to get what they’ve paid for without
-                        performing additional tasks, such as posting on social media, uploading contacts,
-                        checking in to the app a certain number of times, etc. Apps should not <span
-                                class="delete">force</span><span class="insert">require</span> users to rate the
-                        app, review the app, <span class="insert">watch videos, </span>download other apps,
-                        <span class="insert">tap on advertisements, </span>or take other similar actions in
-                        order to access functionality, content, <span class="delete">or </span>use <span
-                                class="delete">of </span>the app<span class="insert">, or receive monetary or other compensation</span>.
-                    </li>
-                    <li><strong><span class="insert">(vii)</span></strong><span class="insert"> Artificially manipulating a user’s visibility, status, or rank on other services unless permitted by that service’s Terms and Conditions</span>
-                    </li>
-                    <li><strong><span class="insert">(viii)</span></strong><span class="insert"> Apps that facilitate binary options trading are not permitted on the App Store.  Consider a web app instead.</span>
-                    </li>
-                </ul>
-            </li>
-
-        </ul>
-
-
-    <strong>4.2 Minimum Functionality</strong>
-        <ul class="no-bullet">
-            <li><strong>4.2.2</strong> Other than catalogs, <span
-                    class="delete">which have a dedicated category, </span>apps
-                shouldn’t primarily be marketing materials, advertisements, web clippings, content aggregators,
-                or a collection of links.
-            </li>
-            <li><strong><span class="insert">4.2.6</span></strong><span class="insert"> Apps created from a commercialized template or app generation service will be rejected.</span>
-            </li>
-        </ul>
-
-    <strong>4.4 Extensions</strong>
-        <ul class="no-bullet margin-top-small">
-            <li><strong>4.4.1</strong> Keyboard extensions have some additional rules.<br>
-                <p>They must:</p>
-                <ul class="disc margin-top-small">
-                    <li><span
-                            class="insert">Follow Sticker guidelines if the keyboard includes images or emojis</span>
-                    </li>
-                    <li>Remain functional without full network<span
-                            class="insert"> access and without requiring full</span>
-                        access;
-                    </li>
-                </ul>
-            </li>
-        </ul>
-
-    <strong>4.5 Apple Sites and Services</strong>
-        <ul class="no-bullet margin-top-small">
-
-            <li><strong>4.5.2</strong> <span class="delete">The </span>Apple Music<span
-                    class="delete"> API lets</span>
-
-                <ul class="no-bullet margin-top-small">
-                    <li><strong><span class="insert">(i)</span></strong><span
-                            class="insert"> The MusicKit APIs let</span>
-                        customers access their subscription while using your app. <span class="insert">They are intended for simple music playback by Apple Music subscribers.  </span>Users
-                        must initiate the <span class="insert">playback of an Apple Music </span>stream and be
-                        able to navigate <span class="delete">playback </span>using standard media controls such
-                        as “play,” “pause,” and “skip<span class="delete">;</span><span class="insert">.</span>”<span
-                                class="delete"> apps may not automate these actions. </span> Moreover, your app
-                        may not require payment or indirectly monetize access to the Apple Music service (e.g.
-                        in-app purchase, advertising, requesting user info<span
-                                class="insert">, etc.</span>).<span class="insert">  Do not download, upload, or enable sharing of music files sourced from the MusicKit APIs, except as explicitly permitted in </span><a
-                                href="/musickit/"><span class="insert">MusicKit</span></a><span class="insert"> documentation. </span>
-                    </li>
-
-                    <li><strong><span class="insert">(ii)</span></strong><span class="insert"> Using the MusicKit APIs is not a replacement for securing the licenses you might need for a deeper or more complex music integration.  For example, if you want your app to play a specific song at a particular moment, or to create audio or video files that can be shared to social media, you’ll need to contact rights-holders directly to get their permission (e.g. synchronization or adaptation rights) and assets.  Cover art and other metadata may only be used in connection with music playback or playlists (including App Store screenshots displaying your app’s functionality), and should not be used in any marketing or advertising without getting specific authorization from rights-holders.  Make sure to follow the </span><a
-                            href="https://www.apple.com/itunes/marketing-on-music/identity-guidelines.html"><span
-                            class="insert">Apple Music Identity Guidelines</span></a><span class="insert"> when integrating Apple Music services in your app.</span>
-                    </li>
-                    <li><strong><span class="insert">(iii)</span></strong><span class="insert"> Apps that access Apple Music user data, such as playlists and favorites, must clearly disclose this access in the purpose string.  Any data collected may not be shared with third parties for any purpose other than supporting or improving the app experience.  This data may not be used to identify users or devices, or to target advertising. </span>
-                    </li>
-                </ul>
-        </ul>
-
-    <strong><span class="insert">4.6 Alternate App Icons  </span></strong>
-        <p><span class="insert">Apps may display customized icons, for example, to reflect a sports team preference, provided that each change is initiated by the user and the app includes settings to revert to the original icon.  All icon variants must relate to the content of the app and changes should be consistent across all system assets, so that the icons displayed in Settings, Notifications, etc. match the new springboard icon.  This feature may not be used for dynamic, automatic, or serial changes, such as to reflect up-to-date weather information, calendar notifications, etc.</span>
-        </p>
-        
-    <strong><span class="insert">4.7  Third-Party Software  </span></strong>
-        <p><span class="insert">Apps may contain or run code provided by third party developers (e.g. HTML5-based  games), as long as the code is not offered in a store or store-like interface, and provided that the software (1) is free or purchased using in-app purchase; (2) only uses capabilities available in a standard WebKit view; your app must use WebKit and JavaScript Core to run third party software and should not attempt to extend or expose native platform APIs to third party software; (3) is offered by developers that have joined the Apple Developer Program and signed the Apple Developer Program License Agreement; and (4) adheres to the terms of these App Review Guidelines (e.g. does not include objectionable content; uses IAP to unlock features and functionality). You must provide an index of third party software and metadata available in your app upon request.</span>
-        </p>
-
-
-    <strong>5.1 Privacy</strong>
-        <ul class="no-bullet">
-            <li id="data-collection-and-storage" class="margin-top-small"><strong>5.1.1 Data Collection and
-                Storage</strong>
-                <ul class="no-bullet margin-top-small">
-                    <li><strong>(i)</strong> Apps that collect user or usage data must have a privacy policy and
-                        secure user consent for the collection. This includes—but isn’t limited to—apps that
-                        implement HealthKit or other health/medical technologies, HomeKit, Keyboard extensions,
-                        Apple Pay, Stickers and iMessage extensions, include a login, or access user data from
-                        the device<span class="insert">. Your app description should let people know what types of access</span>
-                        (e.g. location, contacts, calendar, etc.)<span class="insert"> are requested by your app, and what aspects of the app won’t work if the user doesn’t grant permission</span>.
-                    </li>
-                </ul>
-            </li>
-            <li id="data-use-and-sharing" class="margin-top"><strong>5.1.2 Data Use and Sharing</strong>
-                <ul class="no-bullet margin-top-small">
-                    <li><strong>(i)</strong> <span class="delete">Apps cannot</span><span class="insert">You may not attempt, facilitate, or encourage others to identify users or reconstruct user profiles based on data that you say has been collected in an “anonymized,” “aggregated,” or otherwise non-identifiable way. You may not</span>
-                        use or transmit someone’s personal data without first obtaining their permission and
-                        providing access to information about how and where the data will be used.
-                    </li>
-                </ul>
-            </li>
-        </ul>
-
-    <strong>5.2 Intellectual Property</strong>
-
-        <ul class="no-bullet">
-            <li><strong>5.2.1</strong> Generally: Don’t use protected third party material such as trademarks,
-                copyrighted works, or patented ideas in your app without permission, and don’t include
-                misleading, false, or copycat representations, names, or metadata in your app bundle<span
-                        class="insert"> or developer name.  Apps should be submitted by the person or legal entity that owns or has licensed the intellectual property and other relevant rights and is responsible for offering any services provided by the app</span>.
-            </li>
-
-            <li><strong>5.2.5</strong> Apple Products: Don’t create an app that appears confusingly similar to
-                an existing Apple product, interface (e.g. Finder), app (such as the App Store, iTunes Store, or Messages) or advertising theme, and don’t
-                misspell Apple product names (i.e., GPS for Iphone, iTunz). <span class="insert">Apps and extensions, including third party keyboards and Sticker packs, may not include Apple emoji.   </span>iTunes
-                music previews may not be used for their entertainment value (e.g. as the background music to a
-                photo collage or the soundtrack to a game) or in any other unauthorized manner. If your app
-                displays Activity rings, do not modify the look and feel of the rings themselves or the data
-                they represent. The <a
-                        href="https://developer.apple.com/watchos/human-interface-guidelines/ui-elements/#activity-rings">Human
-                    Interface Guidelines</a> have more information on how to use Activity rings.
-            </li>
-        </ul>
-
-</section></p></article></div></div></body></html>
+</p></article></div></div></body></html>
